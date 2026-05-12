@@ -7,7 +7,7 @@
       "2025": "partial"
     },
     "companiesCount": 11,
-    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS y TRABELECT no figuran allí. TEHIKOS se añadió con datos SCVS 2023–2024; 2025 no aparece en el resumen Excel.",
+    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS y TRABELECT no figuran allí. TEHIKOS se añadió con datos SCVS 2023–2024; 2025 no aparece en el resumen Excel. TEHIKOS 2025 actualizado con dato provisto por Mario.",
     "generatedFrom": [
       "analisis_competencia.xlsx"
     ],
@@ -1541,10 +1541,10 @@
       "targetQuery": "TEHIKOS",
       "name": "TEHIKOS C.A.",
       "latest": {
-        "year": 2024,
+        "year": 2025,
         "available": true,
-        "rank": 17745,
-        "previousRank": 17714,
+        "rank": 8735,
+        "previousRank": null,
         "expediente": "141725",
         "ruc": "",
         "name": "TEHIKOS C.A.",
@@ -1555,16 +1555,16 @@
         "province": "GUAYAS",
         "city": "GUAYAQUIL",
         "sector": "SOCIETARIO",
-        "employees": 7,
-        "assets": 577021.29,
-        "equity": 107671.02,
-        "sales": 2489466.65,
-        "profitBeforeTax": 97134.4,
-        "profitYear": 114275.77,
-        "netProfit": 72850.8,
-        "incomeTax": 24283.6,
-        "totalIncome": 2490861.8,
-        "source": "SCVS ranking público"
+        "employees": 19,
+        "totalIncome": 3007848.49,
+        "incomeTax": 12908.31,
+        "assets": 841275.56,
+        "equity": 130441.81,
+        "sales": 3007283.22,
+        "profitBeforeTax": 35679.1,
+        "profitYear": 41975.41,
+        "netProfit": 22770.79,
+        "source": "Dato 2025 provisto por Mario"
       },
       "years": [
         {
@@ -1621,8 +1621,29 @@
         },
         {
           "year": 2025,
-          "available": false,
-          "note": "No aparece en el bloque 2025 del resumen Excel provisto"
+          "available": true,
+          "rank": 8735,
+          "previousRank": null,
+          "expediente": "141725",
+          "ruc": "",
+          "name": "TEHIKOS C.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4741.11",
+          "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 19,
+          "totalIncome": 3007848.49,
+          "incomeTax": 12908.31,
+          "assets": 841275.56,
+          "equity": 130441.81,
+          "sales": 3007283.22,
+          "profitBeforeTax": 35679.1,
+          "profitYear": 41975.41,
+          "netProfit": 22770.79,
+          "source": "Dato 2025 provisto por Mario"
         }
       ],
       "variations": [
@@ -1660,31 +1681,31 @@
         {
           "from": 2024,
           "to": 2025,
-          "available": false,
+          "available": true,
           "metrics": {
             "sales": {
-              "delta": null,
-              "pct": null
+              "delta": 517816.57,
+              "pct": 20.8
             },
             "assets": {
-              "delta": null,
-              "pct": null
+              "delta": 264254.27,
+              "pct": 45.8
             },
             "employees": {
-              "delta": null,
-              "pct": null
+              "delta": 12,
+              "pct": 171.43
             },
             "netProfit": {
-              "delta": null,
-              "pct": null
+              "delta": -50080.01,
+              "pct": -68.74
             },
             "totalIncome": {
-              "delta": null,
-              "pct": null
+              "delta": 516986.69,
+              "pct": 20.76
             },
             "equity": {
-              "delta": null,
-              "pct": null
+              "delta": 22770.79,
+              "pct": 21.15
             }
           }
         }
