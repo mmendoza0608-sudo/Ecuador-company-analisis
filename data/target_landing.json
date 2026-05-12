@@ -6,8 +6,8 @@
       "2024": true,
       "2025": "partial"
     },
-    "companiesCount": 11,
-    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS y TRABELECT no figuran allí. TEHIKOS se añadió con datos SCVS 2023–2024; 2025 no aparece en el resumen Excel. TEHIKOS 2025 actualizado con dato provisto por Mario.",
+    "companiesCount": 13,
+    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS y TRABELECT no figuran allí. TEHIKOS se añadió con datos SCVS 2023–2024; 2025 no aparece en el resumen Excel. TEHIKOS 2025 actualizado con dato provisto por Mario. AKEA S.A. y PLUSCOMPUTHER S.A.S. incorporadas con datos 2025 provistos por Mario; AKEA incluye histórico SCVS 2023–2024 y PLUSCOMPUTHER se marca sin años anteriores.",
     "generatedFrom": [
       "analisis_competencia.xlsx"
     ],
@@ -1723,6 +1723,331 @@
           "Infraestructura y dispositivos conectados",
           "Omnicanalidad retail",
           "RFID, self-checkout y señalización digital"
+        ]
+      }
+    },
+    {
+      "targetQuery": "AKEA S.A.",
+      "name": "AKEA S.A.",
+      "latest": {
+        "year": 2025,
+        "available": true,
+        "rank": 4233,
+        "previousRank": null,
+        "expediente": "163339",
+        "ruc": "",
+        "name": "AKEA S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "G4651.01",
+        "activity": "VENTA AL POR MAYOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO.",
+        "region": "SIERRA",
+        "province": "PICHINCHA",
+        "city": "QUITO",
+        "sector": "SOCIETARIO",
+        "employees": 54,
+        "totalIncome": 5111729.42,
+        "incomeTax": 65589.63,
+        "assets": 4358442.8,
+        "equity": 933179.66,
+        "sales": 5060545.58,
+        "profitBeforeTax": 228446.66,
+        "profitYear": 268760.78,
+        "netProfit": 168433.41,
+        "source": "Dato 2025 provisto por Mario"
+      },
+      "years": [
+        {
+          "year": 2023,
+          "available": true,
+          "rank": 6524,
+          "previousRank": 9367,
+          "expediente": "163339",
+          "ruc": "",
+          "name": "AKEA S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4651.01",
+          "activity": "VENTA AL POR MAYOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "SOCIETARIO",
+          "employees": 52,
+          "assets": 3094306.13,
+          "equity": 845434.52,
+          "sales": 5498685.24,
+          "profitBeforeTax": 374064.73,
+          "profitYear": 440076.15,
+          "netProfit": 260427.08,
+          "incomeTax": 116371.02,
+          "totalIncome": 5498685.24,
+          "source": "SCVS ranking público"
+        },
+        {
+          "year": 2024,
+          "available": true,
+          "rank": 5911,
+          "previousRank": 6524,
+          "expediente": "163339",
+          "ruc": "",
+          "name": "AKEA S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4651.01",
+          "activity": "VENTA AL POR MAYOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "SOCIETARIO",
+          "employees": 56,
+          "assets": 3450685.3,
+          "equity": 851601.62,
+          "sales": 6028163.32,
+          "profitBeforeTax": 145241.43,
+          "profitYear": 170872.27,
+          "netProfit": 106167.09,
+          "incomeTax": 42384.75,
+          "totalIncome": 6028163.32,
+          "source": "SCVS ranking público"
+        },
+        {
+          "year": 2025,
+          "available": true,
+          "rank": 4233,
+          "previousRank": null,
+          "expediente": "163339",
+          "ruc": "",
+          "name": "AKEA S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4651.01",
+          "activity": "VENTA AL POR MAYOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "SOCIETARIO",
+          "employees": 54,
+          "totalIncome": 5111729.42,
+          "incomeTax": 65589.63,
+          "assets": 4358442.8,
+          "equity": 933179.66,
+          "sales": 5060545.58,
+          "profitBeforeTax": 228446.66,
+          "profitYear": 268760.78,
+          "netProfit": 168433.41,
+          "source": "Dato 2025 provisto por Mario"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": 529478.08,
+              "pct": 9.63
+            },
+            "assets": {
+              "delta": 356379.17,
+              "pct": 11.52
+            },
+            "employees": {
+              "delta": 4,
+              "pct": 7.69
+            },
+            "netProfit": {
+              "delta": -154259.99,
+              "pct": -59.23
+            },
+            "totalIncome": {
+              "delta": 529478.08,
+              "pct": 9.63
+            },
+            "equity": {
+              "delta": 6167.1,
+              "pct": 0.73
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": -967617.74,
+              "pct": -16.05
+            },
+            "assets": {
+              "delta": 907757.5,
+              "pct": 26.31
+            },
+            "employees": {
+              "delta": -2,
+              "pct": -3.57
+            },
+            "netProfit": {
+              "delta": 62266.32,
+              "pct": 58.65
+            },
+            "totalIncome": {
+              "delta": -916433.9,
+              "pct": -15.2
+            },
+            "equity": {
+              "delta": 81578.04,
+              "pct": 9.58
+            }
+          }
+        }
+      ],
+      "webIntel": {
+        "website": "",
+        "confidence": "Pendiente",
+        "description": "Mayorista de computadoras y equipo periférico. Se incorporó con información financiera 2023–2025; falta complementar offerings desde sitio web/fuente pública validada.",
+        "offerings": [
+          "Venta mayorista de computadoras",
+          "Equipo periférico",
+          "Hardware empresarial"
+        ]
+      }
+    },
+    {
+      "targetQuery": "PLUSCOMPUTHER S.A.S.",
+      "name": "PLUSCOMPUTHER S.A.S.",
+      "latest": {
+        "year": 2025,
+        "available": true,
+        "rank": 52579,
+        "previousRank": null,
+        "expediente": "",
+        "ruc": "",
+        "name": "PLUSCOMPUTHER S.A.S.",
+        "companyType": "SOCIEDAD POR ACCIONES SIMPLIFICADA",
+        "ciiu": "M7490.29",
+        "activity": "OTRAS ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS N.C.P.",
+        "region": "",
+        "province": "",
+        "city": "",
+        "sector": "",
+        "employees": 2,
+        "totalIncome": 98289.16,
+        "incomeTax": 2659.11,
+        "assets": 41123.31,
+        "equity": 7908.47,
+        "sales": 98289.16,
+        "profitBeforeTax": 10067.58,
+        "profitYear": 10067.58,
+        "netProfit": 7408.47,
+        "source": "Dato 2025 provisto por Mario"
+      },
+      "years": [
+        {
+          "year": 2023,
+          "available": false,
+          "note": "No existía/no aparece en SCVS 2023 según instrucción de Mario"
+        },
+        {
+          "year": 2024,
+          "available": false,
+          "note": "No existía/no aparece en SCVS 2024 según instrucción de Mario"
+        },
+        {
+          "year": 2025,
+          "available": true,
+          "rank": 52579,
+          "previousRank": null,
+          "expediente": "",
+          "ruc": "",
+          "name": "PLUSCOMPUTHER S.A.S.",
+          "companyType": "SOCIEDAD POR ACCIONES SIMPLIFICADA",
+          "ciiu": "M7490.29",
+          "activity": "OTRAS ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS N.C.P.",
+          "region": "",
+          "province": "",
+          "city": "",
+          "sector": "",
+          "employees": 2,
+          "totalIncome": 98289.16,
+          "incomeTax": 2659.11,
+          "assets": 41123.31,
+          "equity": 7908.47,
+          "sales": 98289.16,
+          "profitBeforeTax": 10067.58,
+          "profitYear": 10067.58,
+          "netProfit": 7408.47,
+          "source": "Dato 2025 provisto por Mario"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            },
+            "totalIncome": {
+              "delta": null,
+              "pct": null
+            },
+            "equity": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            },
+            "totalIncome": {
+              "delta": null,
+              "pct": null
+            },
+            "equity": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "webIntel": {
+        "website": "",
+        "confidence": "Pendiente",
+        "description": "Empresa incorporada con datos 2025 provistos por Mario; no registra años anteriores en el análisis. Falta complementar offerings desde fuente web validada.",
+        "offerings": [
+          "Servicios profesionales/técnicos",
+          "Oferta tecnológica por validar"
         ]
       }
     }
