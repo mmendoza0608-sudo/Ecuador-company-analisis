@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecuador Company Intelligence | MVP</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span>🇪🇨</span><strong>EC Company Intel</strong></div>
+    <nav>
+      <a class="active" href="#dashboard">📊 Dashboard</a>
+      <a href="#ranking">📋 Ranking</a>
+      <a href="#opportunity">🎯 Oportunidades</a>
+      <a href="#sectors">🏭 Sectores</a>
+    </nav>
+    <footer>
+      <small>MVP • SCVS 2024<br/>Construido con OpenClaw</small>
+    </footer>
+  </aside>
+
+  <main>
+    <section id="dashboard" class="hero">
+      <p class="eyebrow">Superintendencia de Compañías • Ranking 2024</p>
+      <h1>Inteligencia comercial de empresas en Ecuador</h1>
+      <p class="subtitle">Ranking, señales financieras y score inicial de oportunidad para analizar clientes, prospectos y competencia.</p>
+      <div class="actions">
+        <a class="btn primary" href="#ranking">Ver ranking</a>
+        <a class="btn" href="data/companies.json">Descargar JSON</a>
+      </div>
+    </section>
+
+    <section class="stats-grid" id="stats"></section>
+
+    <section id="ranking" class="card">
+      <div class="section-head">
+        <div>
+          <h2>Ranking de empresas</h2>
+          <p>Top 1.000 empresas por posición SCVS 2024. Filtra por nombre, RUC, provincia, sector o oportunidad.</p>
+        </div>
+        <div class="filters">
+          <input id="search" placeholder="Buscar empresa, RUC, sector..." />
+          <select id="provinceFilter"><option value="">Todas las provincias</option></select>
+          <select id="opportunityFilter"><option value="">Toda oportunidad</option><option>HIGH</option><option>MEDIUM</option><option>LOW</option></select>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th><th>Empresa</th><th>Provincia</th><th>Sector</th><th>Ventas</th><th>Activos</th><th>Empleados</th><th>Utilidad neta</th><th>Oportunidad</th>
+            </tr>
+          </thead>
+          <tbody id="rankingBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="opportunity" class="grid-2">
+      <div class="card">
+        <h2>🎯 Top oportunidades comerciales</h2>
+        <p>Score MVP basado en ventas, empleados, activos, provincia y tipo de actividad.</p>
+        <div id="opportunityList" class="company-list"></div>
+      </div>
+      <div class="card">
+        <h2>🔎 Ficha rápida</h2>
+        <p>Selecciona una empresa del ranking para ver su resumen.</p>
+        <div id="companyDetail" class="detail empty">Aún no has seleccionado una empresa.</div>
+      </div>
+    </section>
+
+    <section id="sectors" class="grid-2">
+      <div class="card">
+        <h2>🏭 Sectores principales</h2>
+        <div id="sectorBars"></div>
+      </div>
+      <div class="card">
+        <h2>📍 Provincias principales</h2>
+        <div id="provinceBars"></div>
+      </div>
+    </section>
+
+    <section class="source-note">
+      Fuente: recursos públicos de la SCVS Ecuador, archivo ranking_2024.xlsx. Este MVP no reemplaza validación legal/financiera; sirve para inteligencia comercial inicial.
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
