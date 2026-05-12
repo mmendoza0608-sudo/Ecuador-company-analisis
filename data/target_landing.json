@@ -6,8 +6,8 @@
       "2024": true,
       "2025": "partial"
     },
-    "companiesCount": 10,
-    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS y TRABELECT no figuran allí.",
+    "companiesCount": 11,
+    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS y TRABELECT no figuran allí. TEHIKOS se añadió con datos SCVS 2023–2024; 2025 no aparece en el resumen Excel.",
     "generatedFrom": [
       "analisis_competencia.xlsx"
     ],
@@ -1534,6 +1534,174 @@
           "Data Center",
           "Servicios informáticos y telecomunicaciones",
           "Integración de soluciones tecnológicas"
+        ]
+      }
+    },
+    {
+      "targetQuery": "TEHIKOS",
+      "name": "TEHIKOS C.A.",
+      "latest": {
+        "year": 2024,
+        "available": true,
+        "rank": 17745,
+        "previousRank": 17714,
+        "expediente": "141725",
+        "ruc": "",
+        "name": "TEHIKOS C.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "G4741.11",
+        "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 7,
+        "assets": 577021.29,
+        "equity": 107671.02,
+        "sales": 2489466.65,
+        "profitBeforeTax": 97134.4,
+        "profitYear": 114275.77,
+        "netProfit": 72850.8,
+        "incomeTax": 24283.6,
+        "totalIncome": 2490861.8,
+        "source": "SCVS ranking público"
+      },
+      "years": [
+        {
+          "year": 2023,
+          "available": true,
+          "rank": 17714,
+          "previousRank": 24386,
+          "expediente": "141725",
+          "ruc": "",
+          "name": "TEHIKOS C.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4741.11",
+          "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 4,
+          "assets": 597648.47,
+          "equity": 65217.22,
+          "sales": 1607216.18,
+          "profitBeforeTax": 40529.4,
+          "profitYear": 47681.65,
+          "netProfit": 30397.05,
+          "incomeTax": 10132.35,
+          "totalIncome": 1607216.18,
+          "source": "SCVS ranking público"
+        },
+        {
+          "year": 2024,
+          "available": true,
+          "rank": 17745,
+          "previousRank": 17714,
+          "expediente": "141725",
+          "ruc": "",
+          "name": "TEHIKOS C.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4741.11",
+          "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 7,
+          "assets": 577021.29,
+          "equity": 107671.02,
+          "sales": 2489466.65,
+          "profitBeforeTax": 97134.4,
+          "profitYear": 114275.77,
+          "netProfit": 72850.8,
+          "incomeTax": 24283.6,
+          "totalIncome": 2490861.8,
+          "source": "SCVS ranking público"
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No aparece en el bloque 2025 del resumen Excel provisto"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": 882250.47,
+              "pct": 54.89
+            },
+            "assets": {
+              "delta": -20627.18,
+              "pct": -3.45
+            },
+            "employees": {
+              "delta": 3,
+              "pct": 75.0
+            },
+            "netProfit": {
+              "delta": 42453.75,
+              "pct": 139.66
+            },
+            "totalIncome": {
+              "delta": 883645.62,
+              "pct": 54.98
+            },
+            "equity": {
+              "delta": 42453.8,
+              "pct": 65.1
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            },
+            "totalIncome": {
+              "delta": null,
+              "pct": null
+            },
+            "equity": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "webIntel": {
+        "website": "https://tehikos.com/",
+        "confidence": "Alta",
+        "description": "Integrador ecuatoriano de soluciones tecnológicas para empresas, con foco en plataformas tecnológicas 360°, smart retail, tecnología bajo demanda, renta de equipos, mesa de ayuda, infraestructura, omnicanalidad e innovación para eficiencia operativa y experiencia del cliente.",
+        "offerings": [
+          "Plataformas Tecnológicas 360°",
+          "Smart Retail Solutions",
+          "TEHIKOS On Demand / As a Service",
+          "Renta de equipos",
+          "Mesa de ayuda y soporte inmediato",
+          "Infraestructura y dispositivos conectados",
+          "Omnicanalidad retail",
+          "RFID, self-checkout y señalización digital"
         ]
       }
     }
