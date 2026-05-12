@@ -1,0 +1,1388 @@
+{
+  "summary": {
+    "source": "SCVS Ecuador ranking anual público",
+    "availability": {
+      "2023": true,
+      "2024": true,
+      "2025": false
+    },
+    "companiesCount": 10,
+    "note": "El archivo ranking_2025.xlsx no está publicado en los recursos públicos SCVS al momento de generación; se presenta como no disponible.",
+    "generatedFrom": [
+      "ranking_2023.xlsx",
+      "ranking_2024.xlsx"
+    ]
+  },
+  "companies": [
+    {
+      "targetQuery": "BINARIA SISTEMAS S.A.",
+      "name": "BINARIA SISTEMAS S.A.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 2137,
+          "previousRank": 2377,
+          "expediente": "14035",
+          "ruc": "1790394182001",
+          "name": "BINARIA SISTEMAS S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "J6202.10",
+          "activity": "ACTIVIDADES DE PLANIFICACIÓN Y DISEÑO DE SISTEMAS INFORMÁTICOS QUE INTEGRAN EQUIPO Y PROGRAMAS INFORMÁTICOS Y TECNOLOGÍA DE LAS COMUNICACIONES.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "SOCIETARIO",
+          "employees": 91,
+          "assets": 12061036.06,
+          "equity": 2898198.4,
+          "sales": 29146450.84,
+          "profitBeforeTax": 1559055.15,
+          "profitYear": 1834182.53,
+          "netProfit": 1186869.71,
+          "incomeTax": 414069.2,
+          "totalIncome": 29146450.84,
+          "available": true,
+          "targetQuery": "BINARIA SISTEMAS S.A."
+        },
+        {
+          "year": 2024,
+          "rank": 2458,
+          "previousRank": 2137,
+          "expediente": "14035",
+          "ruc": "1790394182001",
+          "name": "BINARIA SISTEMAS S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "J6202.10",
+          "activity": "ACTIVIDADES DE PLANIFICACIÓN Y DISEÑO DE SISTEMAS INFORMÁTICOS QUE INTEGRAN EQUIPO Y PROGRAMAS INFORMÁTICOS Y TECNOLOGÍA DE LAS COMUNICACIONES.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "SOCIETARIO",
+          "employees": 91,
+          "assets": 10131209.38,
+          "equity": 3241309.07,
+          "sales": 24825511.08,
+          "profitBeforeTax": 978823.16,
+          "profitYear": 1151556.66,
+          "netProfit": 754164.41,
+          "incomeTax": 269656.35,
+          "totalIncome": 24825511.08,
+          "available": true,
+          "targetQuery": "BINARIA SISTEMAS S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": -4320939.76,
+              "pct": -14.82
+            },
+            "assets": {
+              "delta": -1929826.68,
+              "pct": -16.0
+            },
+            "employees": {
+              "delta": 0,
+              "pct": 0.0
+            },
+            "netProfit": {
+              "delta": -432705.3,
+              "pct": -36.46
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 2458,
+        "previousRank": 2137,
+        "expediente": "14035",
+        "ruc": "1790394182001",
+        "name": "BINARIA SISTEMAS S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "J6202.10",
+        "activity": "ACTIVIDADES DE PLANIFICACIÓN Y DISEÑO DE SISTEMAS INFORMÁTICOS QUE INTEGRAN EQUIPO Y PROGRAMAS INFORMÁTICOS Y TECNOLOGÍA DE LAS COMUNICACIONES.",
+        "region": "SIERRA",
+        "province": "PICHINCHA",
+        "city": "QUITO",
+        "sector": "SOCIETARIO",
+        "employees": 91,
+        "assets": 10131209.38,
+        "equity": 3241309.07,
+        "sales": 24825511.08,
+        "profitBeforeTax": 978823.16,
+        "profitYear": 1151556.66,
+        "netProfit": 754164.41,
+        "incomeTax": 269656.35,
+        "totalIncome": 24825511.08,
+        "available": true,
+        "targetQuery": "BINARIA SISTEMAS S.A."
+      }
+    },
+    {
+      "targetQuery": "MAINT S.A.",
+      "name": "MAINT S.A.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 1996,
+          "previousRank": 1944,
+          "expediente": "26340",
+          "ruc": "0990722161001",
+          "name": "MAINT S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "C3312.91",
+          "activity": "SERVICIOS DE REPARACIÓN Y MANTENIMIENTO DE MÁQUINAS Y HERRAMIENTAS DE OFICINA Y CONTABILIDAD A CAMBIO DE UNA RETRIBUCIÓN O POR CONTRATO: MÁQUINAS DE ESCRIBIR, FOTOCOPIADORAS, BÁSCULAS, CALCULADORAS, SEAN O NO ELECTRÓNICAS ETCÉTERA.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 253,
+          "assets": 13037244.1,
+          "equity": 1220005.39,
+          "sales": 23299692.46,
+          "profitBeforeTax": 518154.67,
+          "profitYear": 609593.73,
+          "netProfit": 147440.82,
+          "incomeTax": 314702.84,
+          "totalIncome": 25997961.67,
+          "available": true,
+          "targetQuery": "MAINT S.A."
+        },
+        {
+          "year": 2024,
+          "rank": 1584,
+          "previousRank": 1996,
+          "expediente": "26340",
+          "ruc": "0990722161001",
+          "name": "MAINT S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "C3312.91",
+          "activity": "SERVICIOS DE REPARACIÓN Y MANTENIMIENTO DE MÁQUINAS Y HERRAMIENTAS DE OFICINA Y CONTABILIDAD A CAMBIO DE UNA RETRIBUCIÓN O POR CONTRATO: MÁQUINAS DE ESCRIBIR, FOTOCOPIADORAS, BÁSCULAS, CALCULADORAS, SEAN O NO ELECTRÓNICAS ETCÉTERA.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 252,
+          "assets": 16351545.14,
+          "equity": 1233056.74,
+          "sales": 25282090.53,
+          "profitBeforeTax": 122983.01,
+          "profitYear": 144685.9,
+          "netProfit": 65784.24,
+          "incomeTax": 92013.29,
+          "totalIncome": 28828649.31,
+          "available": true,
+          "targetQuery": "MAINT S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": 1982398.07,
+              "pct": 8.51
+            },
+            "assets": {
+              "delta": 3314301.04,
+              "pct": 25.42
+            },
+            "employees": {
+              "delta": -1,
+              "pct": -0.4
+            },
+            "netProfit": {
+              "delta": -81656.58,
+              "pct": -55.38
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 1584,
+        "previousRank": 1996,
+        "expediente": "26340",
+        "ruc": "0990722161001",
+        "name": "MAINT S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "C3312.91",
+        "activity": "SERVICIOS DE REPARACIÓN Y MANTENIMIENTO DE MÁQUINAS Y HERRAMIENTAS DE OFICINA Y CONTABILIDAD A CAMBIO DE UNA RETRIBUCIÓN O POR CONTRATO: MÁQUINAS DE ESCRIBIR, FOTOCOPIADORAS, BÁSCULAS, CALCULADORAS, SEAN O NO ELECTRÓNICAS ETCÉTERA.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 252,
+        "assets": 16351545.14,
+        "equity": 1233056.74,
+        "sales": 25282090.53,
+        "profitBeforeTax": 122983.01,
+        "profitYear": 144685.9,
+        "netProfit": 65784.24,
+        "incomeTax": 92013.29,
+        "totalIncome": 28828649.31,
+        "available": true,
+        "targetQuery": "MAINT S.A."
+      }
+    },
+    {
+      "targetQuery": "AKROS CIA. LTDA.",
+      "name": "AKROS CIA. LTDA.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 2488,
+          "previousRank": 2149,
+          "expediente": "50437",
+          "ruc": "1791148800001",
+          "name": "AKROS CIA. LTDA.",
+          "companyType": "RESPONSABILIDAD LIMITADA",
+          "ciiu": "J6202.10",
+          "activity": "ACTIVIDADES DE PLANIFICACIÓN Y DISEÑO DE SISTEMAS INFORMÁTICOS QUE INTEGRAN EQUIPO Y PROGRAMAS INFORMÁTICOS Y TECNOLOGÍA DE LAS COMUNICACIONES.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "MERCADO DE VALORES",
+          "employees": 289,
+          "assets": 10202993.87,
+          "equity": 2885511.53,
+          "sales": 22377873.39,
+          "profitBeforeTax": 67378.58,
+          "profitYear": 79268.92,
+          "netProfit": -4156.63,
+          "incomeTax": 79033.67,
+          "totalIncome": 22377873.39,
+          "available": true,
+          "targetQuery": "AKROS CIA. LTDA."
+        },
+        {
+          "year": 2024,
+          "rank": 2356,
+          "previousRank": 2488,
+          "expediente": "50437",
+          "ruc": "1791148800001",
+          "name": "AKROS CIA. LTDA.",
+          "companyType": "RESPONSABILIDAD LIMITADA",
+          "ciiu": "J6202.10",
+          "activity": "ACTIVIDADES DE PLANIFICACIÓN Y DISEÑO DE SISTEMAS INFORMÁTICOS QUE INTEGRAN EQUIPO Y PROGRAMAS INFORMÁTICOS Y TECNOLOGÍA DE LAS COMUNICACIONES.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "MERCADO DE VALORES",
+          "employees": 245,
+          "assets": 10599169.74,
+          "equity": 2949371.99,
+          "sales": 19910779.53,
+          "profitBeforeTax": 98006.68,
+          "profitYear": 115301.98,
+          "netProfit": 61026.96,
+          "incomeTax": 42520.7,
+          "totalIncome": 19910779.53,
+          "available": true,
+          "targetQuery": "AKROS CIA. LTDA."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": -2467093.86,
+              "pct": -11.02
+            },
+            "assets": {
+              "delta": 396175.87,
+              "pct": 3.88
+            },
+            "employees": {
+              "delta": -44,
+              "pct": -15.22
+            },
+            "netProfit": {
+              "delta": 65183.59,
+              "pct": 1568.18
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 2356,
+        "previousRank": 2488,
+        "expediente": "50437",
+        "ruc": "1791148800001",
+        "name": "AKROS CIA. LTDA.",
+        "companyType": "RESPONSABILIDAD LIMITADA",
+        "ciiu": "J6202.10",
+        "activity": "ACTIVIDADES DE PLANIFICACIÓN Y DISEÑO DE SISTEMAS INFORMÁTICOS QUE INTEGRAN EQUIPO Y PROGRAMAS INFORMÁTICOS Y TECNOLOGÍA DE LAS COMUNICACIONES.",
+        "region": "SIERRA",
+        "province": "PICHINCHA",
+        "city": "QUITO",
+        "sector": "MERCADO DE VALORES",
+        "employees": 245,
+        "assets": 10599169.74,
+        "equity": 2949371.99,
+        "sales": 19910779.53,
+        "profitBeforeTax": 98006.68,
+        "profitYear": 115301.98,
+        "netProfit": 61026.96,
+        "incomeTax": 42520.7,
+        "totalIncome": 19910779.53,
+        "available": true,
+        "targetQuery": "AKROS CIA. LTDA."
+      }
+    },
+    {
+      "targetQuery": "TELCOMBAS S.A.",
+      "name": "TELCOMBAS S.A.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 5074,
+          "previousRank": 4563,
+          "expediente": "131954",
+          "ruc": "0992581840001",
+          "name": "TELCOMBAS S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4649.11",
+          "activity": "VENTA AL POR MAYOR DE ELECTRODOMÉSTICOS Y APARATOS DE USO DOMÉSTICO: REFRIGERADORAS, COCINAS, LAVADORAS, ETCÉTERA. INCLUYE EQUIPOS DE TELEVISIÓN, ESTÉREOS (EQUIPOS DE SONIDO), EQUIPOS DE GRABACIÓN Y REPRODUCTORES DE CD Y DVD, CINTAS DE AUDIO Y VIDEO CDS, DVD GRABADAS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 64,
+          "assets": 4300200.27,
+          "equity": 1721381.71,
+          "sales": 9325965.51,
+          "profitBeforeTax": 646489.94,
+          "profitYear": 760576.4,
+          "netProfit": 428690.82,
+          "incomeTax": 217799.12,
+          "totalIncome": 9325965.51,
+          "available": true,
+          "targetQuery": "TELCOMBAS S.A."
+        },
+        {
+          "year": 2024,
+          "rank": 5352,
+          "previousRank": 5074,
+          "expediente": "131954",
+          "ruc": "0992581840001",
+          "name": "TELCOMBAS S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4649.11",
+          "activity": "VENTA AL POR MAYOR DE ELECTRODOMÉSTICOS Y APARATOS DE USO DOMÉSTICO: REFRIGERADORAS, COCINAS, LAVADORAS, ETCÉTERA. INCLUYE EQUIPOS DE TELEVISIÓN, ESTÉREOS (EQUIPOS DE SONIDO), EQUIPOS DE GRABACIÓN Y REPRODUCTORES DE CD Y DVD, CINTAS DE AUDIO Y VIDEO CDS, DVD GRABADAS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 67,
+          "assets": 3951044.55,
+          "equity": 1846322.5,
+          "sales": 8412675.47,
+          "profitBeforeTax": 708684.55,
+          "profitYear": 833746.53,
+          "netProfit": 438090.96,
+          "incomeTax": 276419.45,
+          "totalIncome": 8412675.47,
+          "available": true,
+          "targetQuery": "TELCOMBAS S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": -913290.04,
+              "pct": -9.79
+            },
+            "assets": {
+              "delta": -349155.72,
+              "pct": -8.12
+            },
+            "employees": {
+              "delta": 3,
+              "pct": 4.69
+            },
+            "netProfit": {
+              "delta": 9400.14,
+              "pct": 2.19
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 5352,
+        "previousRank": 5074,
+        "expediente": "131954",
+        "ruc": "0992581840001",
+        "name": "TELCOMBAS S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "G4649.11",
+        "activity": "VENTA AL POR MAYOR DE ELECTRODOMÉSTICOS Y APARATOS DE USO DOMÉSTICO: REFRIGERADORAS, COCINAS, LAVADORAS, ETCÉTERA. INCLUYE EQUIPOS DE TELEVISIÓN, ESTÉREOS (EQUIPOS DE SONIDO), EQUIPOS DE GRABACIÓN Y REPRODUCTORES DE CD Y DVD, CINTAS DE AUDIO Y VIDEO CDS, DVD GRABADAS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 67,
+        "assets": 3951044.55,
+        "equity": 1846322.5,
+        "sales": 8412675.47,
+        "profitBeforeTax": 708684.55,
+        "profitYear": 833746.53,
+        "netProfit": 438090.96,
+        "incomeTax": 276419.45,
+        "totalIncome": 8412675.47,
+        "available": true,
+        "targetQuery": "TELCOMBAS S.A."
+      }
+    },
+    {
+      "targetQuery": "PREMIUMTECH S.A.",
+      "name": "PREMIUMTECH S.A.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 8968,
+          "previousRank": 9129,
+          "expediente": "103921",
+          "ruc": "0992184574001",
+          "name": "PREMIUMTECH S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4741.11",
+          "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 22,
+          "assets": 1960231.28,
+          "equity": 420288.4,
+          "sales": 5578707.6,
+          "profitBeforeTax": 23763.44,
+          "profitYear": 27956.99,
+          "netProfit": 21372.66,
+          "incomeTax": 2390.78,
+          "totalIncome": 5582280.47,
+          "available": true,
+          "targetQuery": "PREMIUMTECH S.A."
+        },
+        {
+          "year": 2024,
+          "rank": 8327,
+          "previousRank": 8968,
+          "expediente": "103921",
+          "ruc": "0992184574001",
+          "name": "PREMIUMTECH S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4741.11",
+          "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 19,
+          "assets": 2141542.02,
+          "equity": 443820.22,
+          "sales": 5352271.81,
+          "profitBeforeTax": 19308.68,
+          "profitYear": 22716.09,
+          "netProfit": 18915.32,
+          "incomeTax": 393.36,
+          "totalIncome": 5363492.32,
+          "available": true,
+          "targetQuery": "PREMIUMTECH S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": -226435.79,
+              "pct": -4.06
+            },
+            "assets": {
+              "delta": 181310.74,
+              "pct": 9.25
+            },
+            "employees": {
+              "delta": -3,
+              "pct": -13.64
+            },
+            "netProfit": {
+              "delta": -2457.34,
+              "pct": -11.5
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 8327,
+        "previousRank": 8968,
+        "expediente": "103921",
+        "ruc": "0992184574001",
+        "name": "PREMIUMTECH S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "G4741.11",
+        "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 19,
+        "assets": 2141542.02,
+        "equity": 443820.22,
+        "sales": 5352271.81,
+        "profitBeforeTax": 19308.68,
+        "profitYear": 22716.09,
+        "netProfit": 18915.32,
+        "incomeTax": 393.36,
+        "totalIncome": 5363492.32,
+        "available": true,
+        "targetQuery": "PREMIUMTECH S.A."
+      }
+    },
+    {
+      "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S.",
+      "name": "CNO S.A.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 1198,
+          "previousRank": 1121,
+          "expediente": "44552",
+          "ruc": "0990872015001",
+          "name": "CNO S.A.",
+          "companyType": "SUCURSAL  EXTRANJERA",
+          "ciiu": "F4210.11",
+          "activity": "CONSTRUCCIÓN DE CARRETERAS, CALLES, CARRETERAS, Y OTRAS VÍAS PARA VEHÍCULOS O PEATONES.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "SOCIETARIO",
+          "employees": 1,
+          "assets": 22707348.8,
+          "equity": -108129544.38,
+          "sales": 96151.27,
+          "profitBeforeTax": -2686896.02,
+          "profitYear": -2686896.02,
+          "netProfit": -2686896.02,
+          "incomeTax": 0.0,
+          "totalIncome": 611918.27,
+          "available": true,
+          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A."
+        },
+        {
+          "year": 2024,
+          "rank": 8181,
+          "previousRank": 9511,
+          "expediente": "27850",
+          "ruc": "0991010866001",
+          "name": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S.",
+          "companyType": "SOCIEDAD POR ACCIONES SIMPLIFICADA",
+          "ciiu": "G4741.12",
+          "activity": "VENTA AL POR MENOR DE PROGRAMAS INFORMÁTICOS NO PERSONALIZADOS, INCLUIDOS VIDEOJUEGOS, INCLUYE CONSOLAS DE VIDEOJUEGOS EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 2,
+          "assets": 2197001.54,
+          "equity": 509407.3,
+          "sales": 5466727.37,
+          "profitBeforeTax": 121580.15,
+          "profitYear": 143035.47,
+          "netProfit": 82794.22,
+          "incomeTax": 38785.93,
+          "totalIncome": 5466727.37,
+          "available": true,
+          "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": 5370576.1,
+              "pct": 5585.55
+            },
+            "assets": {
+              "delta": -20510347.26,
+              "pct": -90.32
+            },
+            "employees": {
+              "delta": 1,
+              "pct": 100.0
+            },
+            "netProfit": {
+              "delta": 2769690.24,
+              "pct": 103.08
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 8181,
+        "previousRank": 9511,
+        "expediente": "27850",
+        "ruc": "0991010866001",
+        "name": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S.",
+        "companyType": "SOCIEDAD POR ACCIONES SIMPLIFICADA",
+        "ciiu": "G4741.12",
+        "activity": "VENTA AL POR MENOR DE PROGRAMAS INFORMÁTICOS NO PERSONALIZADOS, INCLUIDOS VIDEOJUEGOS, INCLUYE CONSOLAS DE VIDEOJUEGOS EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 2,
+        "assets": 2197001.54,
+        "equity": 509407.3,
+        "sales": 5466727.37,
+        "profitBeforeTax": 121580.15,
+        "profitYear": 143035.47,
+        "netProfit": 82794.22,
+        "incomeTax": 38785.93,
+        "totalIncome": 5466727.37,
+        "available": true,
+        "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S."
+      }
+    },
+    {
+      "targetQuery": "COMPUHELP S.A.",
+      "name": "COMPUHELP S.A.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 9777,
+          "previousRank": 9866,
+          "expediente": "72443",
+          "ruc": "0991315063001",
+          "name": "COMPUHELP S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "S9511.01",
+          "activity": "REPARACIÓN Y MANTENIMIENTO DE: COMPUTADORAS DE ESCRITORIO, COMPUTADORAS PORTÁTILES, SERVIDORES INFORMÁTICOS, COMPUTADORAS DE MANO (ASISTENTES DIGITALES PERSONALES), UNIDADES DE DISCO MAGNÉTICO, UNIDADES DE MEMORIA USB Y OTROS DISPOSITIVOS DE ALMACENAMIENTO; UNIDADES DE DISCO ÓPTICO (CD-RW, CD-ROM, DVD-ROM, DVD-RW), MÓDEMS INTERNOS Y EXTERNOS, IMPRESORAS, PANTALLAS, TECLADOS, RATONES, PALANCAS DE MANDO Y BOLAS RODANTES, PROYECTORES INFORMÁTICOS, ESCÁNERES, INCLUIDOS LECTORES DE CÓDIGO DE BARRAS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 108,
+          "assets": 1727036.2,
+          "equity": 1281499.54,
+          "sales": 3333025.53,
+          "profitBeforeTax": 0.0,
+          "profitYear": 307096.14,
+          "netProfit": 192238.94,
+          "incomeTax": 68792.78,
+          "totalIncome": 3346461.71,
+          "available": true,
+          "targetQuery": "COMPUHELP S.A."
+        },
+        {
+          "year": 2024,
+          "rank": 9304,
+          "previousRank": 9777,
+          "expediente": "72443",
+          "ruc": "0991315063001",
+          "name": "COMPUHELP S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "S9511.01",
+          "activity": "REPARACIÓN Y MANTENIMIENTO DE: COMPUTADORAS DE ESCRITORIO, COMPUTADORAS PORTÁTILES, SERVIDORES INFORMÁTICOS, COMPUTADORAS DE MANO (ASISTENTES DIGITALES PERSONALES), UNIDADES DE DISCO MAGNÉTICO, UNIDADES DE MEMORIA USB Y OTROS DISPOSITIVOS DE ALMACENAMIENTO; UNIDADES DE DISCO ÓPTICO (CD-RW, CD-ROM, DVD-ROM, DVD-RW), MÓDEMS INTERNOS Y EXTERNOS, IMPRESORAS, PANTALLAS, TECLADOS, RATONES, PALANCAS DE MANDO Y BOLAS RODANTES, PROYECTORES INFORMÁTICOS, ESCÁNERES, INCLUIDOS LECTORES DE CÓDIGO DE BARRAS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 112,
+          "assets": 1805114.01,
+          "equity": 1319061.1,
+          "sales": 3487643.87,
+          "profitBeforeTax": 353814.86,
+          "profitYear": 416252.78,
+          "netProfit": 262561.56,
+          "incomeTax": 91253.3,
+          "totalIncome": 3494436.91,
+          "available": true,
+          "targetQuery": "COMPUHELP S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": 154618.34,
+              "pct": 4.64
+            },
+            "assets": {
+              "delta": 78077.81,
+              "pct": 4.52
+            },
+            "employees": {
+              "delta": 4,
+              "pct": 3.7
+            },
+            "netProfit": {
+              "delta": 70322.62,
+              "pct": 36.58
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 9304,
+        "previousRank": 9777,
+        "expediente": "72443",
+        "ruc": "0991315063001",
+        "name": "COMPUHELP S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "S9511.01",
+        "activity": "REPARACIÓN Y MANTENIMIENTO DE: COMPUTADORAS DE ESCRITORIO, COMPUTADORAS PORTÁTILES, SERVIDORES INFORMÁTICOS, COMPUTADORAS DE MANO (ASISTENTES DIGITALES PERSONALES), UNIDADES DE DISCO MAGNÉTICO, UNIDADES DE MEMORIA USB Y OTROS DISPOSITIVOS DE ALMACENAMIENTO; UNIDADES DE DISCO ÓPTICO (CD-RW, CD-ROM, DVD-ROM, DVD-RW), MÓDEMS INTERNOS Y EXTERNOS, IMPRESORAS, PANTALLAS, TECLADOS, RATONES, PALANCAS DE MANDO Y BOLAS RODANTES, PROYECTORES INFORMÁTICOS, ESCÁNERES, INCLUIDOS LECTORES DE CÓDIGO DE BARRAS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 112,
+        "assets": 1805114.01,
+        "equity": 1319061.1,
+        "sales": 3487643.87,
+        "profitBeforeTax": 353814.86,
+        "profitYear": 416252.78,
+        "netProfit": 262561.56,
+        "incomeTax": 91253.3,
+        "totalIncome": 3494436.91,
+        "available": true,
+        "targetQuery": "COMPUHELP S.A."
+      }
+    },
+    {
+      "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+      "name": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 13055,
+          "previousRank": 13594,
+          "expediente": "118215",
+          "ruc": "0992390867001",
+          "name": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+          "companyType": "ANÓNIMA",
+          "ciiu": "J5820.00",
+          "activity": "ACTIVIDADES DE PUBLICACIÓN DE PROGRAMAS INFORMÁTICOS COMERCIALES (NO PERSONALIZADOS): SISTEMAS OPERATIVOS, APLICACIONES COMERCIALES Y OTRAS APLICACIONES, JUEGOS INFORMÁTICOS PARA TODAS LAS PLATAFORMAS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 8,
+          "assets": 1085826.41,
+          "equity": 538972.09,
+          "sales": 4376679.42,
+          "profitBeforeTax": 150595.13,
+          "profitYear": 150595.13,
+          "netProfit": 150595.13,
+          "incomeTax": 0.0,
+          "totalIncome": 4376679.42,
+          "available": true,
+          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
+        },
+        {
+          "year": 2024,
+          "rank": 13976,
+          "previousRank": 13055,
+          "expediente": "118215",
+          "ruc": "0992390867001",
+          "name": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+          "companyType": "ANÓNIMA",
+          "ciiu": "J5820.00",
+          "activity": "ACTIVIDADES DE PUBLICACIÓN DE PROGRAMAS INFORMÁTICOS COMERCIALES (NO PERSONALIZADOS): SISTEMAS OPERATIVOS, APLICACIONES COMERCIALES Y OTRAS APLICACIONES, JUEGOS INFORMÁTICOS PARA TODAS LAS PLATAFORMAS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 8,
+          "assets": 937652.7,
+          "equity": 485576.1,
+          "sales": 4408461.11,
+          "profitBeforeTax": 97199.14,
+          "profitYear": 97199.14,
+          "netProfit": 97199.14,
+          "incomeTax": 0.0,
+          "totalIncome": 4408461.11,
+          "available": true,
+          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": 31781.69,
+              "pct": 0.73
+            },
+            "assets": {
+              "delta": -148173.71,
+              "pct": -13.65
+            },
+            "employees": {
+              "delta": 0,
+              "pct": 0.0
+            },
+            "netProfit": {
+              "delta": -53395.99,
+              "pct": -35.46
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 13976,
+        "previousRank": 13055,
+        "expediente": "118215",
+        "ruc": "0992390867001",
+        "name": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+        "companyType": "ANÓNIMA",
+        "ciiu": "J5820.00",
+        "activity": "ACTIVIDADES DE PUBLICACIÓN DE PROGRAMAS INFORMÁTICOS COMERCIALES (NO PERSONALIZADOS): SISTEMAS OPERATIVOS, APLICACIONES COMERCIALES Y OTRAS APLICACIONES, JUEGOS INFORMÁTICOS PARA TODAS LAS PLATAFORMAS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 8,
+        "assets": 937652.7,
+        "equity": 485576.1,
+        "sales": 4408461.11,
+        "profitBeforeTax": 97199.14,
+        "profitYear": 97199.14,
+        "netProfit": 97199.14,
+        "incomeTax": 0.0,
+        "totalIncome": 4408461.11,
+        "available": true,
+        "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
+      }
+    },
+    {
+      "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A.",
+      "name": "CNO S.A.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 1198,
+          "previousRank": 1121,
+          "expediente": "44552",
+          "ruc": "0990872015001",
+          "name": "CNO S.A.",
+          "companyType": "SUCURSAL  EXTRANJERA",
+          "ciiu": "F4210.11",
+          "activity": "CONSTRUCCIÓN DE CARRETERAS, CALLES, CARRETERAS, Y OTRAS VÍAS PARA VEHÍCULOS O PEATONES.",
+          "region": "SIERRA",
+          "province": "PICHINCHA",
+          "city": "QUITO",
+          "sector": "SOCIETARIO",
+          "employees": 1,
+          "assets": 22707348.8,
+          "equity": -108129544.38,
+          "sales": 96151.27,
+          "profitBeforeTax": -2686896.02,
+          "profitYear": -2686896.02,
+          "netProfit": -2686896.02,
+          "incomeTax": 0.0,
+          "totalIncome": 611918.27,
+          "available": true,
+          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A."
+        },
+        {
+          "year": 2024,
+          "rank": 9053,
+          "previousRank": 10409,
+          "expediente": "122061",
+          "ruc": "0992443227001",
+          "name": "ONDU SOLUCIONES TECNOLOGICAS S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "S9511.01",
+          "activity": "REPARACIÓN Y MANTENIMIENTO DE: COMPUTADORAS DE ESCRITORIO, COMPUTADORAS PORTÁTILES, SERVIDORES INFORMÁTICOS, COMPUTADORAS DE MANO (ASISTENTES DIGITALES PERSONALES), UNIDADES DE DISCO MAGNÉTICO, UNIDADES DE MEMORIA USB Y OTROS DISPOSITIVOS DE ALMACENAMIENTO; UNIDADES DE DISCO ÓPTICO (CD-RW, CD-ROM, DVD-ROM, DVD-RW), MÓDEMS INTERNOS Y EXTERNOS, IMPRESORAS, PANTALLAS, TECLADOS, RATONES, PALANCAS DE MANDO Y BOLAS RODANTES, PROYECTORES INFORMÁTICOS, ESCÁNERES, INCLUIDOS LECTORES DE CÓDIGO DE BARRAS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 85,
+          "assets": 1880982.56,
+          "equity": 625636.79,
+          "sales": 4986559.26,
+          "profitBeforeTax": 180580.92,
+          "profitYear": 212448.14,
+          "netProfit": 117230.66,
+          "incomeTax": 66916.26,
+          "totalIncome": 5038831.54,
+          "available": true,
+          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": 4890407.99,
+              "pct": 5086.16
+            },
+            "assets": {
+              "delta": -20826366.24,
+              "pct": -91.72
+            },
+            "employees": {
+              "delta": 84,
+              "pct": 8400.0
+            },
+            "netProfit": {
+              "delta": 2804126.68,
+              "pct": 104.36
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 9053,
+        "previousRank": 10409,
+        "expediente": "122061",
+        "ruc": "0992443227001",
+        "name": "ONDU SOLUCIONES TECNOLOGICAS S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "S9511.01",
+        "activity": "REPARACIÓN Y MANTENIMIENTO DE: COMPUTADORAS DE ESCRITORIO, COMPUTADORAS PORTÁTILES, SERVIDORES INFORMÁTICOS, COMPUTADORAS DE MANO (ASISTENTES DIGITALES PERSONALES), UNIDADES DE DISCO MAGNÉTICO, UNIDADES DE MEMORIA USB Y OTROS DISPOSITIVOS DE ALMACENAMIENTO; UNIDADES DE DISCO ÓPTICO (CD-RW, CD-ROM, DVD-ROM, DVD-RW), MÓDEMS INTERNOS Y EXTERNOS, IMPRESORAS, PANTALLAS, TECLADOS, RATONES, PALANCAS DE MANDO Y BOLAS RODANTES, PROYECTORES INFORMÁTICOS, ESCÁNERES, INCLUIDOS LECTORES DE CÓDIGO DE BARRAS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 85,
+        "assets": 1880982.56,
+        "equity": 625636.79,
+        "sales": 4986559.26,
+        "profitBeforeTax": 180580.92,
+        "profitYear": 212448.14,
+        "netProfit": 117230.66,
+        "incomeTax": 66916.26,
+        "totalIncome": 5038831.54,
+        "available": true,
+        "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A."
+      }
+    },
+    {
+      "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+      "name": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+      "years": [
+        {
+          "year": 2023,
+          "rank": 15110,
+          "previousRank": 15729,
+          "expediente": "304944",
+          "ruc": "0992988010001",
+          "name": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "C2620.01",
+          "activity": "FABRICACIÓN DE ORDENADORES (COMPUTADORAS) CENTRALES, MICROCOMPUTADORAS; DE ESCRITORIO, PORTÁTILES (LAPTOPS, NOTEBOOKS); ORDENADORES DE MANO (ASISTENTES DIGITALES PERSONALES), SERVIDORES INFORMÁTICOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 24,
+          "assets": 834805.3,
+          "equity": 233083.37,
+          "sales": 1752433.22,
+          "profitBeforeTax": 167819.04,
+          "profitYear": 197434.16,
+          "netProfit": 122745.06,
+          "incomeTax": 54252.36,
+          "totalIncome": 1786172.24,
+          "available": true,
+          "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A."
+        },
+        {
+          "year": 2024,
+          "rank": 13611,
+          "previousRank": 15110,
+          "expediente": "304944",
+          "ruc": "0992988010001",
+          "name": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "C2620.01",
+          "activity": "FABRICACIÓN DE ORDENADORES (COMPUTADORAS) CENTRALES, MICROCOMPUTADORAS; DE ESCRITORIO, PORTÁTILES (LAPTOPS, NOTEBOOKS); ORDENADORES DE MANO (ASISTENTES DIGITALES PERSONALES), SERVIDORES INFORMÁTICOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 29,
+          "assets": 981983.65,
+          "equity": 260073.29,
+          "sales": 2292499.55,
+          "profitBeforeTax": 0.0,
+          "profitYear": 98324.53,
+          "netProfit": 59489.92,
+          "incomeTax": 26925.91,
+          "totalIncome": 2292499.55,
+          "available": true,
+          "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No publicado por SCVS en recursos de ranking"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": 540066.33,
+              "pct": 30.82
+            },
+            "assets": {
+              "delta": 147178.35,
+              "pct": 17.63
+            },
+            "employees": {
+              "delta": 5,
+              "pct": 20.83
+            },
+            "netProfit": {
+              "delta": -63255.14,
+              "pct": -51.53
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "latest": {
+        "year": 2024,
+        "rank": 13611,
+        "previousRank": 15110,
+        "expediente": "304944",
+        "ruc": "0992988010001",
+        "name": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "C2620.01",
+        "activity": "FABRICACIÓN DE ORDENADORES (COMPUTADORAS) CENTRALES, MICROCOMPUTADORAS; DE ESCRITORIO, PORTÁTILES (LAPTOPS, NOTEBOOKS); ORDENADORES DE MANO (ASISTENTES DIGITALES PERSONALES), SERVIDORES INFORMÁTICOS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 29,
+        "assets": 981983.65,
+        "equity": 260073.29,
+        "sales": 2292499.55,
+        "profitBeforeTax": 0.0,
+        "profitYear": 98324.53,
+        "netProfit": 59489.92,
+        "incomeTax": 26925.91,
+        "totalIncome": 2292499.55,
+        "available": true,
+        "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A."
+      }
+    }
+  ]
+}

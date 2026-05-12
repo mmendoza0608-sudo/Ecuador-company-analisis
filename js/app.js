@@ -1,83 +1,65 @@
-let companies = [];
-let stats = {};
-let targets = {matches: [], missing: []};
+let payload;
 const money = v => v == null ? '—' : new Intl.NumberFormat('es-EC',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(v);
 const num = v => v == null ? '—' : new Intl.NumberFormat('es-EC').format(v);
+const pct = v => v == null ? '—' : `${v>0?'+':''}${v.toFixed(2)}%`;
+const cls = v => v == null ? '' : v > 0 ? 'positive' : v < 0 ? 'negative' : 'neutral';
 
 async function init(){
-  [companies, stats, targets] = await Promise.all([
-    fetch('data/companies.json').then(r=>r.json()),
-    fetch('data/stats.json').then(r=>r.json()),
-    fetch('data/targets.json').then(r=>r.json()).catch(()=>({matches: [], missing: []}))
-  ]);
-  renderStats(); setupFilters(); renderRanking(); renderOpportunity(); renderTargets(); renderBars();
+  payload = await fetch('data/target_landing.json').then(r=>r.json());
+  renderStats(); renderAvailability(); renderSummary(); renderCompanyCards();
 }
+function latest(c){ return c.latest || c.years.find(y=>y.year===2024) || {}; }
+function yoy(c){ return c.variations.find(v=>v.from===2023 && v.to===2024) || {}; }
 function renderStats(){
-  document.getElementById('stats').innerHTML = [
-    ['Empresas analizadas', num(stats.companies)],
-    ['Ventas acumuladas', money(stats.totalSales)],
-    ['Activos acumulados', money(stats.totalAssets)],
-    ['Alta oportunidad', num(stats.highOpportunity)]
-  ].map(([label,value])=>`<div class="stat"><b>${value}</b><span>${label}</span></div>`).join('');
+  const companies = payload.companies;
+  const sales = companies.reduce((s,c)=>s+(latest(c).sales||0),0);
+  const assets = companies.reduce((s,c)=>s+(latest(c).assets||0),0);
+  const employees = companies.reduce((s,c)=>s+(latest(c).employees||0),0);
+  const grew = companies.filter(c => (yoy(c).metrics?.sales?.pct || 0) > 0).length;
+  document.getElementById('targetStats').innerHTML = [
+    ['Compañías analizadas', num(companies.length)],
+    ['Ventas 2024 acumuladas', money(sales)],
+    ['Activos 2024 acumulados', money(assets)],
+    ['Crecieron en ventas', `${grew}/${companies.length}`]
+  ].map(([l,v])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join('');
 }
-function setupFilters(){
-  const provinces = [...new Set(companies.map(c=>c.province).filter(Boolean))].sort();
-  document.getElementById('provinceFilter').innerHTML += provinces.map(p=>`<option>${p}</option>`).join('');
-  ['search','provinceFilter','opportunityFilter'].forEach(id=>document.getElementById(id).addEventListener('input', renderRanking));
-}
-function filtered(){
-  const q = document.getElementById('search').value.toLowerCase().trim();
-  const p = document.getElementById('provinceFilter').value;
-  const o = document.getElementById('opportunityFilter').value;
-  return companies.filter(c => (!p || c.province===p) && (!o || c.opportunity===o) && (!q || [c.name,c.ruc,c.province,c.sector,c.ciiu,c.activity].join(' ').toLowerCase().includes(q)));
-}
-function renderRanking(){
-  const rows = filtered().slice(0,250);
-  document.getElementById('rankingBody').innerHTML = rows.map(c=>`<tr>
-    <td>${c.rank}</td>
-    <td><div class="company-name" onclick="showCompany('${c.slug}')">${c.name}</div><small>${c.ruc || 'Exp. '+c.expediente}</small></td>
-    <td>${c.province || '—'}</td><td>${c.ciiu || '—'}<br><small>${(c.activity||'').slice(0,80)}</small></td>
-    <td>${money(c.sales)}</td><td>${money(c.assets)}</td><td>${num(c.employees)}</td><td>${money(c.netProfit)}</td>
-    <td><span class="badge ${c.opportunity}">${c.opportunity} · ${c.opportunityScore}</span></td>
-  </tr>`).join('');
-}
-function renderOpportunity(){
-  const top = [...companies].sort((a,b)=>b.opportunityScore-a.opportunityScore || a.rank-b.rank).slice(0,12);
-  document.getElementById('opportunityList').innerHTML = top.map(c=>`<div class="company-item" onclick="showCompany('${c.slug}')"><div><strong>${c.name}</strong><br><small>${c.province} · ${c.ciiu} · ${money(c.sales)}</small></div><div class="score">${c.opportunityScore}</div></div>`).join('');
-}
-function renderTargets(){
-  const body = document.getElementById('targetsBody');
-  if(!body) return;
-  body.innerHTML = (targets.matches || []).map(c=>`<tr>
-    <td>${c.rank || '—'}</td>
-    <td><div class="company-name" onclick="showTarget('${c.expediente}')">${c.name}</div><small>${(c.activity||'').slice(0,90)}</small></td>
-    <td>${c.ruc || '—'}</td><td>${c.province || '—'}</td><td>${c.ciiu || '—'}</td>
-    <td>${money(c.sales)}</td><td>${money(c.assets)}</td><td>${num(c.employees)}</td><td>${money(c.netProfit)}</td>
-  </tr>`).join('');
-}
-function renderBars(){
-  barChart('provinceBars', stats.topProvinces);
-  barChart('sectorBars', stats.topSectors);
-}
-function barChart(id, items){
-  const max = Math.max(...items.map(x=>x[1]));
-  document.getElementById(id).innerHTML = items.map(([label,value])=>`<div class="bar-row"><div class="bar-label"><span>${label}</span><b>${value}</b></div><div class="bar"><div style="width:${value/max*100}%"></div></div></div>`).join('');
-}
-function renderDetail(c){
-  document.getElementById('companyDetail').classList.remove('empty');
-  const score = c.opportunityScore != null ? `${c.opportunity} · ${c.opportunityScore}/100` : 'Pendiente';
-  document.getElementById('companyDetail').innerHTML = `<h3>${c.name}</h3><p>${c.activity || ''}</p><div class="detail-grid">
-    <div class="metric"><span>RUC</span><b>${c.ruc || '—'}</b></div><div class="metric"><span>Provincia</span><b>${c.province || '—'}</b></div>
-    <div class="metric"><span>Ventas 2024</span><b>${money(c.sales)}</b></div><div class="metric"><span>Activos</span><b>${money(c.assets)}</b></div>
-    <div class="metric"><span>Empleados</span><b>${num(c.employees)}</b></div><div class="metric"><span>Utilidad neta</span><b>${money(c.netProfit)}</b></div>
-    <div class="metric"><span>Score oportunidad</span><b>${score}</b></div><div class="metric"><span>Ranking SCVS</span><b>#${c.rank}</b></div>
+function renderAvailability(){
+  const a=payload.summary.availability;
+  document.getElementById('availability').innerHTML = `<h2>Disponibilidad de información</h2><p>${payload.summary.note}</p><div class="year-pills">
+    ${Object.keys(a).map(y=>`<span class="pill ${a[y]?'ok':'pending'}">${y}: ${a[y]?'Disponible':'No publicado'}</span>`).join('')}
   </div>`;
-  location.hash = 'opportunity';
 }
-window.showCompany = function(slug){
-  const c = companies.find(x=>x.slug===slug); if(c) renderDetail(c);
+function renderSummary(){
+  document.getElementById('summaryBody').innerHTML = payload.companies.map(c=>{
+    const l=latest(c), v=yoy(c).metrics || {}, sales=v.sales||{}, profit=v.netProfit||{};
+    return `<tr>
+      <td><a href="#${l.expediente}" class="company-name">${c.name}</a><br><small>${l.ciiu||''}</small></td>
+      <td>${l.ruc||'—'}</td><td>${l.province||'—'}</td><td>${money(l.sales)}</td>
+      <td class="${cls(sales.pct)}">${pct(sales.pct)}</td><td>${money(l.assets)}</td><td>${num(l.employees)}</td><td>${money(l.netProfit)}</td>
+      <td class="${cls(profit.pct)}">${pct(profit.pct)}</td>
+    </tr>`;
+  }).join('');
 }
-window.showTarget = function(expediente){
-  const c = (targets.matches || []).find(x=>x.expediente===expediente); if(c) renderDetail(c);
+function metric(label, value, variation){
+  const p = variation?.pct;
+  return `<div class="metric"><span>${label}</span><b>${value}</b>${p==null?'':`<em class="${cls(p)}">${pct(p)} vs 2023</em>`}</div>`;
+}
+function yearlyRows(c){
+  return c.years.map(y=>`<tr><td>${y.year}</td>${y.available ? `<td>${num(y.rank)}</td><td>${money(y.sales)}</td><td>${money(y.assets)}</td><td>${num(y.employees)}</td><td>${money(y.netProfit)}</td>` : `<td colspan="5"><span class="muted">${y.note}</span></td>`}</tr>`).join('');
+}
+function renderCompanyCards(){
+  document.getElementById('companies').innerHTML = payload.companies.map(c=>{
+    const l=latest(c), v=yoy(c).metrics || {};
+    return `<article class="company-card" id="${l.expediente||c.name}">
+      <div class="company-head"><div><p class="eyebrow">${l.province||'—'} · ${l.ciiu||'—'}</p><h2>${c.name}</h2><p>${l.activity||''}</p></div><div class="rank-badge">#${l.rank||'—'}<span>SCVS 2024</span></div></div>
+      <div class="detail-grid">
+        ${metric('Ventas 2024', money(l.sales), v.sales)}
+        ${metric('Activos 2024', money(l.assets), v.assets)}
+        ${metric('Empleados 2024', num(l.employees), v.employees)}
+        ${metric('Utilidad neta 2024', money(l.netProfit), v.netProfit)}
+      </div>
+      <div class="table-wrap mini"><table><thead><tr><th>Año</th><th>Rank</th><th>Ventas</th><th>Activos</th><th>Empleados</th><th>Utilidad neta</th></tr></thead><tbody>${yearlyRows(c)}</tbody></table></div>
+    </article>`;
+  }).join('');
 }
 init();
