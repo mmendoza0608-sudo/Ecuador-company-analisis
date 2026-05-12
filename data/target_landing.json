@@ -10,7 +10,8 @@
     "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS y TRABELECT no figuran allí.",
     "generatedFrom": [
       "analisis_competencia.xlsx"
-    ]
+    ],
+    "webIntelNote": "Offerings extraídos/sintetizados desde sitios web oficiales o perfiles públicos cuando el sitio oficial no entrega suficiente texto."
   },
   "companies": [
     {
@@ -153,7 +154,19 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://www.binaria.com.ec/",
+        "confidence": "Alta",
+        "description": "Integrador de soluciones tecnológicas empresariales con foco en transformación digital, nube, datos, automatización, IA, data center, ciberresiliencia y alta disponibilidad.",
+        "offerings": [
+          "Digital Business Solutions",
+          "Cloud, datos, automatización e IA",
+          "Data Center e infraestructura crítica",
+          "Ciberresiliencia y alta disponibilidad",
+          "Diseño e implementación de proyectos tecnológicos"
+        ]
+      }
     },
     {
       "targetQuery": "MAINT S.A.",
@@ -295,7 +308,20 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://www.maintlatam.com/",
+        "confidence": "Alta",
+        "description": "Proveedor regional de soluciones tecnológicas orientadas a optimización operativa, control de riesgos, nube, ciberseguridad, SOC, plataformas TI y servicios gestionados.",
+        "offerings": [
+          "Soluciones de negocio",
+          "Data Driven Enterprise",
+          "Cloud y FinOps",
+          "Ciberseguridad y SOC",
+          "Plataforma TI",
+          "Servicios gestionados"
+        ]
+      }
     },
     {
       "targetQuery": "AKROS CIA. LTDA.",
@@ -424,7 +450,22 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://akroscorp.com/",
+        "confidence": "Alta",
+        "description": "Integrador de soluciones digitales para evolución de negocio, con portafolio para industria, retail y servicios; cubre automatización, nube, comunicaciones, CRM, RFID, RPA y mesa de servicios.",
+        "offerings": [
+          "Automatización de procesos",
+          "Viaje a la nube",
+          "Comunicaciones unificadas",
+          "RFID",
+          "POS / retail tech",
+          "CRM y RPA",
+          "Mesa de servicios",
+          "Asistentes virtuales"
+        ]
+      }
     },
     {
       "targetQuery": "TELCOMBAS S.A.",
@@ -566,7 +607,21 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://www.telcombas.com/",
+        "confidence": "Alta",
+        "description": "Empresa de servicios de tecnología de información y telecomunicaciones con foco en infraestructura, data center, seguridad electrónica, IoT y soluciones de visualización, operando con referencias ITIL/PMI.",
+        "offerings": [
+          "Infraestructura de redes",
+          "Data Center",
+          "Seguridad electrónica",
+          "Soluciones IoT",
+          "Visualización",
+          "Agricultura/agua/ambiente/ciudades inteligentes",
+          "Industria 4.0"
+        ]
+      }
     },
     {
       "targetQuery": "PREMIUMTECH S.A.",
@@ -708,7 +763,20 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://www.premiumtech.com.ec/",
+        "confidence": "Alta",
+        "description": "Tienda online y reseller tecnológico, con oferta de productos Apple, laptops, periféricos, impresoras, accesorios y equipos tecnológicos/electrodomésticos para consumo y empresas.",
+        "offerings": [
+          "Apple Reseller",
+          "Laptops y computadoras",
+          "Periféricos y accesorios",
+          "Impresoras y suministros",
+          "Tienda online de tecnología",
+          "Envíos a nivel nacional"
+        ]
+      }
     },
     {
       "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S.",
@@ -850,7 +918,20 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://www.tecnoav.com/",
+        "confidence": "Alta",
+        "description": "Proveedor de software, servicios y soluciones informáticas con más de 35 años en el mercado; enfocado en ciberseguridad gestionada, automatización, virtualización, GRC y soluciones Microsoft/Citrix/Dynamics.",
+        "offerings": [
+          "Cybersecurity as a Service",
+          "Automatización de procesos",
+          "Virtualización",
+          "Gobernanza, riesgos y cumplimiento",
+          "Microsoft Dynamics / Dynamics 365",
+          "Citrix y software empresarial"
+        ]
+      }
     },
     {
       "targetQuery": "COMPUHELP S.A.",
@@ -992,7 +1073,19 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://ec.linkedin.com/company/compuhelpec",
+        "confidence": "Media-Alta",
+        "description": "Especialista en soporte técnico integral para empresas y usuarios finales; cubre redes de datos, sistemas eléctricos, operación y mantenimiento de infraestructura tecnológica, con autorizaciones de marcas internacionales.",
+        "offerings": [
+          "Soporte técnico integral",
+          "Redes de datos",
+          "Sistemas eléctricos",
+          "Operación y mantenimiento de infraestructura tecnológica",
+          "Centro autorizado de servicio para marcas como ASUS, Dell, Epson, APC y ViewSonic"
+        ]
+      }
     },
     {
       "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS",
@@ -1121,7 +1214,18 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://www.trabelect.net/",
+        "confidence": "Media",
+        "description": "Sitio observado como tienda online de equipos tecnológicos y electrodomésticos, con catálogo destacado de impresoras, televisores, electrodomésticos y equipos relacionados. Requiere validación comercial adicional por baja profundidad institucional del sitio.",
+        "offerings": [
+          "Venta online de equipos tecnológicos",
+          "Impresoras y equipos de impresión",
+          "Televisores y electrodomésticos",
+          "Accesorios/equipos para consumo y oficina"
+        ]
+      }
     },
     {
       "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A.",
@@ -1263,7 +1367,20 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://www.onducloud.com/",
+        "confidence": "Alta",
+        "description": "Proveedor de servicios cloud, ciberseguridad y servicios IT, con enfoque multicloud, alta disponibilidad de datos/aplicaciones, infraestructura gestionada, networking y helpdesk.",
+        "offerings": [
+          "Multicloud",
+          "Alta disponibilidad de datos y aplicaciones",
+          "Ciberseguridad",
+          "Networking",
+          "Infraestructura gestionada",
+          "Helpdesk y servicios IT"
+        ]
+      }
     },
     {
       "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
@@ -1405,7 +1522,20 @@
             }
           }
         }
-      ]
+      ],
+      "webIntel": {
+        "website": "https://innovuxit.com/",
+        "confidence": "Alta",
+        "description": "Integrador de soluciones informáticas y telecomunicaciones con portafolio en ciberseguridad, automatización, movilidad, infraestructura IT y data center; opera en Ecuador y menciona presencia comercial regional.",
+        "offerings": [
+          "Ciberseguridad",
+          "Automatización y movilidad",
+          "Infraestructura IT",
+          "Data Center",
+          "Servicios informáticos y telecomunicaciones",
+          "Integración de soluciones tecnológicas"
+        ]
+      }
     }
   ]
 }

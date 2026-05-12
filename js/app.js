@@ -56,8 +56,11 @@ function renderCompanyCards(){
   document.getElementById('companies').innerHTML = payload.companies.map(c=>{
     const l=latest(c), lv=latestVariation(c).metrics || {}, suffix = l.year===2025 ? 'vs 2024' : 'vs 2023';
     const v2423=variation(c,2023,2024).metrics || {}, v2524=variation(c,2024,2025).metrics || {};
+    const wi=c.webIntel || {};
+    const offerings=(wi.offerings||[]).map(o=>`<span>${o}</span>`).join('');
     return `<article class="company-card" id="${slug(c.name)}">
       <div class="company-head"><div><p class="eyebrow">${l.ciiu||'—'} · último dato ${l.year||'—'}</p><h2>${c.name}</h2><p>${l.source || payload.summary.source}</p></div><div class="rank-badge">#${l.rank||'—'}<span>Rank ${l.year||''}</span></div></div>
+      ${wi.description ? `<div class="web-intel"><div><h3>Principales offerings</h3><p>${wi.description}</p>${wi.website?`<a href="${wi.website}" target="_blank" rel="noopener">Sitio / fuente</a>`:''}<small>Confianza: ${wi.confidence||'—'}</small></div><div class="offering-tags">${offerings}</div></div>` : ''}
       <div class="detail-grid">
         ${metric(`Ventas ${l.year||''}`, money(l.sales), lv.sales, suffix)}
         ${metric(`Activos ${l.year||''}`, money(l.assets), lv.assets, suffix)}
