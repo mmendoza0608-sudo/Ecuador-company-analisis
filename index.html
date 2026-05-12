@@ -15,6 +15,7 @@
       <a class="active" href="#dashboard">📊 Dashboard</a>
       <a href="#ranking">📋 Ranking</a>
       <a href="#opportunity">🎯 Oportunidades</a>
+      <a href="#targets">🧩 Empresas objetivo</a>
       <a href="#sectors">🏭 Sectores</a>
     </nav>
     <footer>
@@ -67,8 +68,27 @@
       </div>
       <div class="card">
         <h2>🔎 Ficha rápida</h2>
-        <p>Selecciona una empresa del ranking para ver su resumen.</p>
+        <p>Selecciona una empresa del ranking o de empresas objetivo para ver su resumen.</p>
         <div id="companyDetail" class="detail empty">Aún no has seleccionado una empresa.</div>
+      </div>
+    </section>
+
+    <section id="targets" class="card">
+      <div class="section-head">
+        <div>
+          <h2>🧩 Empresas objetivo</h2>
+          <p>Lista reducida de competidores/prospectos enviada por Mario, cruzada contra SCVS 2024.</p>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th># SCVS</th><th>Empresa</th><th>RUC</th><th>Provincia</th><th>CIIU</th><th>Ventas</th><th>Activos</th><th>Empleados</th><th>Utilidad neta</th>
+            </tr>
+          </thead>
+          <tbody id="targetsBody"></tbody>
+        </table>
       </div>
     </section>
 
