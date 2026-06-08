@@ -7,7 +7,7 @@
       "2025": "partial"
     },
     "companiesCount": 13,
-    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS y TRABELECT no figuran allí. TEHIKOS se añadió con datos SCVS 2023–2024; 2025 no aparece en el resumen Excel. TEHIKOS 2025 actualizado con dato provisto por Mario. AKEA S.A. y PLUSCOMPUTHER S.A.S. incorporadas con datos 2025 provistos por Mario; AKEA incluye histórico SCVS 2023–2024 y PLUSCOMPUTHER se marca sin años anteriores.",
+    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS no figura allí. TRABELECT, TEHIKOS, AKEA S.A. y PLUSCOMPUTHER S.A.S. fueron actualizadas/incorporadas con datos 2025 provistos por Mario; AKEA incluye histórico SCVS 2023–2024 y PLUSCOMPUTHER se marca sin años anteriores.",
     "generatedFrom": [
       "analisis_competencia.xlsx"
     ],
@@ -1091,21 +1091,21 @@
       "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS",
       "name": "TRABELECT S.A. TRABAJOS ELECTRICOS",
       "latest": {
-        "year": 2024,
+        "year": 2025,
         "available": true,
-        "rank": 7881,
+        "rank": null,
         "name": "TRABELECT S.A. TRABAJOS ELECTRICOS",
         "ciiu": "J5820.00",
-        "employees": 8,
-        "totalIncome": 4408461.11,
+        "employees": 10,
+        "totalIncome": 4373043.28,
         "incomeTax": 0.0,
-        "assets": 937652.7,
-        "equity": 485576.1,
-        "sales": 4408461.11,
-        "profitBeforeTax": 97199.14,
-        "profitYear": 97199.14,
-        "netProfit": 97199.14,
-        "source": "Resumen Excel provisto por Mario",
+        "assets": 997637.74,
+        "equity": 540390.88,
+        "sales": 4373043.28,
+        "profitBeforeTax": 304027.84,
+        "profitYear": 152013.92,
+        "netProfit": 152013.92,
+        "source": "Dato 2025 provisto por Mario",
         "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
       },
       "years": [
@@ -1147,8 +1147,21 @@
         },
         {
           "year": 2025,
-          "available": false,
-          "note": "No aparece en el bloque de ese año del resumen Excel"
+          "available": true,
+          "rank": null,
+          "name": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+          "ciiu": "J5820.00",
+          "employees": 10,
+          "totalIncome": 4373043.28,
+          "incomeTax": 0.0,
+          "assets": 997637.74,
+          "equity": 540390.88,
+          "sales": 4373043.28,
+          "profitBeforeTax": 304027.84,
+          "profitYear": 152013.92,
+          "netProfit": 152013.92,
+          "source": "Dato 2025 provisto por Mario",
+          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
         }
       ],
       "variations": [
@@ -1186,31 +1199,31 @@
         {
           "from": 2024,
           "to": 2025,
-          "available": false,
+          "available": true,
           "metrics": {
             "sales": {
-              "delta": null,
-              "pct": null
+              "delta": -35417.83,
+              "pct": -0.8
             },
             "assets": {
-              "delta": null,
-              "pct": null
+              "delta": 59985.04,
+              "pct": 6.4
             },
             "employees": {
-              "delta": null,
-              "pct": null
+              "delta": 2,
+              "pct": 25.0
             },
             "netProfit": {
-              "delta": null,
-              "pct": null
+              "delta": 54814.78,
+              "pct": 56.39
             },
             "totalIncome": {
-              "delta": null,
-              "pct": null
+              "delta": -35417.83,
+              "pct": -0.8
             },
             "equity": {
-              "delta": null,
-              "pct": null
+              "delta": 54814.78,
+              "pct": 11.29
             }
           }
         }
