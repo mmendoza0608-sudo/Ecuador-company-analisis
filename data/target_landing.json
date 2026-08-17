@@ -6,10 +6,12 @@
       "2024": true,
       "2025": "partial"
     },
-    "companiesCount": 13,
-    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS no figura allí. TRABELECT, TEHIKOS, AKEA S.A. y PLUSCOMPUTHER S.A.S. fueron actualizadas/incorporadas con datos 2025 provistos por Mario; AKEA incluye histórico SCVS 2023–2024 y PLUSCOMPUTHER se marca sin años anteriores.",
+    "companiesCount": 15,
+    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS no figura allí. TRABELECT, TEHIKOS, AKEA S.A. y PLUSCOMPUTHER S.A.S. fueron actualizadas/incorporadas con datos 2025 provistos por Mario. MIPC S.A. y SMART UNIVERSE SMARTUNIV S.A. se incorporan con histórico SCVS 2023–2024 y sin datos 2025 en el Excel cargado.",
     "generatedFrom": [
-      "analisis_competencia.xlsx"
+      "analisis_competencia.xlsx",
+      "ranking_2023.csv",
+      "ranking_2024.csv"
     ],
     "webIntelNote": "Offerings extraídos/sintetizados desde sitios web oficiales o perfiles públicos cuando el sitio oficial no entrega suficiente texto."
   },
@@ -2061,6 +2063,338 @@
         "offerings": [
           "Servicios profesionales/técnicos",
           "Oferta tecnológica por validar"
+        ]
+      }
+    },
+    {
+      "targetQuery": "MIPC S.A.",
+      "name": "MIPC S.A.",
+      "latest": {
+        "year": 2024,
+        "available": true,
+        "rank": 32526,
+        "previousRank": 21314,
+        "expediente": "107014",
+        "ruc": "0992231203001",
+        "name": "MIPC S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "G4741.11",
+        "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 11,
+        "assets": 217405.19,
+        "equity": 3253.49,
+        "sales": 963980.25,
+        "profitBeforeTax": 704.47,
+        "profitYear": 828.79,
+        "netProfit": 549.49,
+        "incomeTax": 154.98,
+        "totalIncome": 963980.25,
+        "source": "SCVS ranking público 2023–2024",
+        "targetQuery": "MIPC S.A."
+      },
+      "years": [
+        {
+          "year": 2023,
+          "available": true,
+          "rank": 21314,
+          "previousRank": 21711,
+          "expediente": "107014",
+          "ruc": "0992231203001",
+          "name": "MIPC S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4741.11",
+          "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 4,
+          "assets": 460028.66,
+          "equity": 2608.96,
+          "sales": 1289373.64,
+          "profitBeforeTax": 0.0,
+          "profitYear": 10120.0,
+          "netProfit": 6709.56,
+          "incomeTax": 0.0,
+          "totalIncome": 1289373.64,
+          "source": "SCVS ranking público 2023–2024",
+          "targetQuery": "MIPC S.A."
+        },
+        {
+          "year": 2024,
+          "available": true,
+          "rank": 32526,
+          "previousRank": 21314,
+          "expediente": "107014",
+          "ruc": "0992231203001",
+          "name": "MIPC S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4741.11",
+          "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 11,
+          "assets": 217405.19,
+          "equity": 3253.49,
+          "sales": 963980.25,
+          "profitBeforeTax": 704.47,
+          "profitYear": 828.79,
+          "netProfit": 549.49,
+          "incomeTax": 154.98,
+          "totalIncome": 963980.25,
+          "source": "SCVS ranking público 2023–2024",
+          "targetQuery": "MIPC S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No aparece en el bloque 2025 del resumen Excel provisto por Mario"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": -325393.39,
+              "pct": -25.24
+            },
+            "assets": {
+              "delta": -242623.47,
+              "pct": -52.74
+            },
+            "employees": {
+              "delta": 7,
+              "pct": 175.0
+            },
+            "netProfit": {
+              "delta": -6160.07,
+              "pct": -91.81
+            },
+            "totalIncome": {
+              "delta": -325393.39,
+              "pct": -25.24
+            },
+            "equity": {
+              "delta": 644.53,
+              "pct": 24.7
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            },
+            "totalIncome": {
+              "delta": null,
+              "pct": null
+            },
+            "equity": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "webIntel": {
+        "website": "",
+        "confidence": "Pendiente",
+        "description": "Empresa de Guayaquil dedicada a la venta al por menor de computadoras y equipo periférico en establecimientos especializados. Se incorpora con histórico SCVS 2023–2024; 2025 no aparece en el Excel cargado.",
+        "offerings": [
+          "Venta minorista de computadoras",
+          "Equipo periférico",
+          "Hardware y tecnología de consumo/empresa"
+        ]
+      }
+    },
+    {
+      "targetQuery": "SMART UNIVERSE SMARTUNIV S.A.",
+      "name": "SMART UNIVERSE SMARTUNIV S.A.",
+      "latest": {
+        "year": 2024,
+        "available": true,
+        "rank": 61134,
+        "previousRank": 50758,
+        "expediente": "307830",
+        "ruc": "0993043796001",
+        "name": "SMART UNIVERSE SMARTUNIV S.A.",
+        "companyType": "ANÓNIMA",
+        "ciiu": "G4651.01",
+        "activity": "VENTA AL POR MAYOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO.",
+        "region": "COSTA",
+        "province": "GUAYAS",
+        "city": "GUAYAQUIL",
+        "sector": "SOCIETARIO",
+        "employees": 5,
+        "assets": 35575.4,
+        "equity": 8469.54,
+        "sales": 639658.27,
+        "profitBeforeTax": 7735.42,
+        "profitYear": 9100.5,
+        "netProfit": 3628.21,
+        "incomeTax": 4107.21,
+        "totalIncome": 639973.41,
+        "source": "SCVS ranking público 2023–2024",
+        "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
+      },
+      "years": [
+        {
+          "year": 2023,
+          "available": true,
+          "rank": 50758,
+          "previousRank": 48958,
+          "expediente": "307830",
+          "ruc": "0993043796001",
+          "name": "SMART UNIVERSE SMARTUNIV S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4651.01",
+          "activity": "VENTA AL POR MAYOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 6,
+          "assets": 67477.14,
+          "equity": 4841.34,
+          "sales": 717907.92,
+          "profitBeforeTax": 6863.15,
+          "profitYear": 8074.29,
+          "netProfit": 1427.45,
+          "incomeTax": 5435.69,
+          "totalIncome": 719188.02,
+          "source": "SCVS ranking público 2023–2024",
+          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
+        },
+        {
+          "year": 2024,
+          "available": true,
+          "rank": 61134,
+          "previousRank": 50758,
+          "expediente": "307830",
+          "ruc": "0993043796001",
+          "name": "SMART UNIVERSE SMARTUNIV S.A.",
+          "companyType": "ANÓNIMA",
+          "ciiu": "G4651.01",
+          "activity": "VENTA AL POR MAYOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO.",
+          "region": "COSTA",
+          "province": "GUAYAS",
+          "city": "GUAYAQUIL",
+          "sector": "SOCIETARIO",
+          "employees": 5,
+          "assets": 35575.4,
+          "equity": 8469.54,
+          "sales": 639658.27,
+          "profitBeforeTax": 7735.42,
+          "profitYear": 9100.5,
+          "netProfit": 3628.21,
+          "incomeTax": 4107.21,
+          "totalIncome": 639973.41,
+          "source": "SCVS ranking público 2023–2024",
+          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
+        },
+        {
+          "year": 2025,
+          "available": false,
+          "note": "No aparece en el bloque 2025 del resumen Excel provisto por Mario"
+        }
+      ],
+      "variations": [
+        {
+          "from": 2023,
+          "to": 2024,
+          "available": true,
+          "metrics": {
+            "sales": {
+              "delta": -78249.65,
+              "pct": -10.9
+            },
+            "assets": {
+              "delta": -31901.74,
+              "pct": -47.28
+            },
+            "employees": {
+              "delta": -1,
+              "pct": -16.67
+            },
+            "netProfit": {
+              "delta": 2200.76,
+              "pct": 154.17
+            },
+            "totalIncome": {
+              "delta": -79214.61,
+              "pct": -11.01
+            },
+            "equity": {
+              "delta": 3628.2,
+              "pct": 74.94
+            }
+          }
+        },
+        {
+          "from": 2024,
+          "to": 2025,
+          "available": false,
+          "metrics": {
+            "sales": {
+              "delta": null,
+              "pct": null
+            },
+            "assets": {
+              "delta": null,
+              "pct": null
+            },
+            "employees": {
+              "delta": null,
+              "pct": null
+            },
+            "netProfit": {
+              "delta": null,
+              "pct": null
+            },
+            "totalIncome": {
+              "delta": null,
+              "pct": null
+            },
+            "equity": {
+              "delta": null,
+              "pct": null
+            }
+          }
+        }
+      ],
+      "webIntel": {
+        "website": "",
+        "confidence": "Pendiente",
+        "description": "Empresa de Guayaquil dedicada a la venta al por mayor de computadoras y equipo periférico. Se incorpora con histórico SCVS 2023–2024; 2025 no aparece en el Excel cargado.",
+        "offerings": [
+          "Venta mayorista de computadoras",
+          "Equipo periférico",
+          "Hardware empresarial"
         ]
       }
     }
