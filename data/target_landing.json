@@ -7,7 +7,7 @@
       "2025": "partial"
     },
     "companiesCount": 15,
-    "note": "2025 fue cargado desde el Excel compartido. En el bloque 2025 aparecen 8 de 10 compañías; AKROS no figura allí. TRABELECT, TEHIKOS, AKEA S.A. y PLUSCOMPUTHER S.A.S. fueron actualizadas/incorporadas con datos 2025 provistos por Mario. MIPC S.A. y SMART UNIVERSE SMARTUNIV S.A. se incorporan con histórico SCVS 2023–2024 y sin datos 2025 en el Excel cargado.",
+    "note": "2025 fue cargado desde el Excel compartido y complementado con datos provistos por Mario. AKROS no figura en el bloque 2025 original. TRABELECT, TEHIKOS, AKEA S.A., PLUSCOMPUTHER S.A.S., MIPC S.A. y SMART UNIVERSE SMARTUNIV S.A. fueron actualizadas/incorporadas con datos 2025 provistos por Mario.",
     "generatedFrom": [
       "analisis_competencia.xlsx",
       "ranking_2023.csv",
@@ -2070,30 +2070,21 @@
       "targetQuery": "MIPC S.A.",
       "name": "MIPC S.A.",
       "latest": {
-        "year": 2024,
+        "year": 2025,
         "available": true,
-        "rank": 32526,
-        "previousRank": 21314,
-        "expediente": "107014",
-        "ruc": "0992231203001",
+        "rank": 30023,
         "name": "MIPC S.A.",
-        "companyType": "ANÓNIMA",
         "ciiu": "G4741.11",
-        "activity": "VENTA AL POR MENOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO COMPUTACIONAL EN ESTABLECIMIENTOS ESPECIALIZADOS.",
-        "region": "COSTA",
-        "province": "GUAYAS",
-        "city": "GUAYAQUIL",
-        "sector": "SOCIETARIO",
-        "employees": 11,
-        "assets": 217405.19,
-        "equity": 3253.49,
-        "sales": 963980.25,
-        "profitBeforeTax": 704.47,
-        "profitYear": 828.79,
-        "netProfit": 549.49,
-        "incomeTax": 154.98,
-        "totalIncome": 963980.25,
-        "source": "SCVS ranking público 2023–2024",
+        "employees": 13,
+        "totalIncome": 562520.17,
+        "incomeTax": 690.91,
+        "assets": 221818.34,
+        "equity": 5593.18,
+        "sales": 550435.22,
+        "profitBeforeTax": 3030.6,
+        "profitYear": 3565.41,
+        "netProfit": 2339.69,
+        "source": "Dato 2025 provisto por Mario",
         "targetQuery": "MIPC S.A."
       },
       "years": [
@@ -2153,8 +2144,21 @@
         },
         {
           "year": 2025,
-          "available": false,
-          "note": "No aparece en el bloque 2025 del resumen Excel provisto por Mario"
+          "available": true,
+          "rank": 30023,
+          "name": "MIPC S.A.",
+          "ciiu": "G4741.11",
+          "employees": 13,
+          "totalIncome": 562520.17,
+          "incomeTax": 690.91,
+          "assets": 221818.34,
+          "equity": 5593.18,
+          "sales": 550435.22,
+          "profitBeforeTax": 3030.6,
+          "profitYear": 3565.41,
+          "netProfit": 2339.69,
+          "source": "Dato 2025 provisto por Mario",
+          "targetQuery": "MIPC S.A."
         }
       ],
       "variations": [
@@ -2192,31 +2196,31 @@
         {
           "from": 2024,
           "to": 2025,
-          "available": false,
+          "available": true,
           "metrics": {
             "sales": {
-              "delta": null,
-              "pct": null
+              "delta": -413545.03,
+              "pct": -42.9
             },
             "assets": {
-              "delta": null,
-              "pct": null
+              "delta": 4413.15,
+              "pct": 2.03
             },
             "employees": {
-              "delta": null,
-              "pct": null
+              "delta": 2,
+              "pct": 18.18
             },
             "netProfit": {
-              "delta": null,
-              "pct": null
+              "delta": 1790.2,
+              "pct": 325.79
             },
             "totalIncome": {
-              "delta": null,
-              "pct": null
+              "delta": -401460.08,
+              "pct": -41.65
             },
             "equity": {
-              "delta": null,
-              "pct": null
+              "delta": 2339.69,
+              "pct": 71.91
             }
           }
         }
@@ -2224,7 +2228,7 @@
       "webIntel": {
         "website": "",
         "confidence": "Pendiente",
-        "description": "Empresa de Guayaquil dedicada a la venta al por menor de computadoras y equipo periférico en establecimientos especializados. Se incorpora con histórico SCVS 2023–2024; 2025 no aparece en el Excel cargado.",
+        "description": "Empresa de Guayaquil dedicada a la venta al por menor de computadoras y equipo periférico en establecimientos especializados. Se incorpora con histórico SCVS 2023–2024; 2025 fue incorporado con datos provistos por Mario.",
         "offerings": [
           "Venta minorista de computadoras",
           "Equipo periférico",
@@ -2236,30 +2240,21 @@
       "targetQuery": "SMART UNIVERSE SMARTUNIV S.A.",
       "name": "SMART UNIVERSE SMARTUNIV S.A.",
       "latest": {
-        "year": 2024,
+        "year": 2025,
         "available": true,
-        "rank": 61134,
-        "previousRank": 50758,
-        "expediente": "307830",
-        "ruc": "0993043796001",
+        "rank": 30024,
         "name": "SMART UNIVERSE SMARTUNIV S.A.",
-        "companyType": "ANÓNIMA",
         "ciiu": "G4651.01",
-        "activity": "VENTA AL POR MAYOR DE COMPUTADORAS Y EQUIPO PERIFÉRICO.",
-        "region": "COSTA",
-        "province": "GUAYAS",
-        "city": "GUAYAQUIL",
-        "sector": "SOCIETARIO",
-        "employees": 5,
-        "assets": 35575.4,
-        "equity": 8469.54,
-        "sales": 639658.27,
-        "profitBeforeTax": 7735.42,
-        "profitYear": 9100.5,
-        "netProfit": 3628.21,
-        "incomeTax": 4107.21,
-        "totalIncome": 639973.41,
-        "source": "SCVS ranking público 2023–2024",
+        "employees": 6,
+        "totalIncome": 630293.92,
+        "incomeTax": 4469.66,
+        "assets": 81251.59,
+        "equity": 11935.5,
+        "sales": 629848.06,
+        "profitBeforeTax": 7935.62,
+        "profitYear": 9336.03,
+        "netProfit": 3465.96,
+        "source": "Dato 2025 provisto por Mario",
         "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
       },
       "years": [
@@ -2319,8 +2314,21 @@
         },
         {
           "year": 2025,
-          "available": false,
-          "note": "No aparece en el bloque 2025 del resumen Excel provisto por Mario"
+          "available": true,
+          "rank": 30024,
+          "name": "SMART UNIVERSE SMARTUNIV S.A.",
+          "ciiu": "G4651.01",
+          "employees": 6,
+          "totalIncome": 630293.92,
+          "incomeTax": 4469.66,
+          "assets": 81251.59,
+          "equity": 11935.5,
+          "sales": 629848.06,
+          "profitBeforeTax": 7935.62,
+          "profitYear": 9336.03,
+          "netProfit": 3465.96,
+          "source": "Dato 2025 provisto por Mario",
+          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
         }
       ],
       "variations": [
@@ -2358,31 +2366,31 @@
         {
           "from": 2024,
           "to": 2025,
-          "available": false,
+          "available": true,
           "metrics": {
             "sales": {
-              "delta": null,
-              "pct": null
+              "delta": -9810.21,
+              "pct": -1.53
             },
             "assets": {
-              "delta": null,
-              "pct": null
+              "delta": 45676.19,
+              "pct": 128.39
             },
             "employees": {
-              "delta": null,
-              "pct": null
+              "delta": 1,
+              "pct": 20.0
             },
             "netProfit": {
-              "delta": null,
-              "pct": null
+              "delta": -162.25,
+              "pct": -4.47
             },
             "totalIncome": {
-              "delta": null,
-              "pct": null
+              "delta": -9679.49,
+              "pct": -1.51
             },
             "equity": {
-              "delta": null,
-              "pct": null
+              "delta": 3465.96,
+              "pct": 40.92
             }
           }
         }
@@ -2390,7 +2398,7 @@
       "webIntel": {
         "website": "",
         "confidence": "Pendiente",
-        "description": "Empresa de Guayaquil dedicada a la venta al por mayor de computadoras y equipo periférico. Se incorpora con histórico SCVS 2023–2024; 2025 no aparece en el Excel cargado.",
+        "description": "Empresa de Guayaquil dedicada a la venta al por mayor de computadoras y equipo periférico. Se incorpora con histórico SCVS 2023–2024; 2025 fue incorporado con datos provistos por Mario.",
         "offerings": [
           "Venta mayorista de computadoras",
           "Equipo periférico",
