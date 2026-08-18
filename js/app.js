@@ -9,6 +9,8 @@ async function init(){
   renderStats(); renderAvailability(); renderSummary(); renderCompanyCards();
 }
 function latest(c){ return c.latest || c.years.find(y=>y.available) || {}; }
+const ebitda = y => y?.ebitda ?? null;
+const ebitdaVar = v => v?.ebitda || {}; 
 function variation(c, from, to){ return c.variations.find(v=>v.from===from && v.to===to) || {metrics:{}}; }
 function latestVariation(c){ const l=latest(c); return l.year===2025 ? variation(c,2024,2025) : variation(c,2023,2024); }
 function renderStats(){
@@ -39,8 +41,8 @@ function renderSummary(){
       <td>${l.year || '—'}</td><td>${money(l.sales)}</td>
       <td class="${cls(v2524.sales?.pct)}">${pct(v2524.sales?.pct)}</td>
       <td class="${cls(v2423.sales?.pct)}">${pct(v2423.sales?.pct)}</td>
-      <td>${money(l.assets)}</td><td>${num(l.employees)}</td><td>${money(l.netProfit)}</td>
-      <td class="${cls(v2524.netProfit?.pct)}">${pct(v2524.netProfit?.pct)}</td>
+      <td>${money(l.assets)}</td><td>${num(l.employees)}</td><td>${money(ebitda(l))}</td>
+      <td class="${cls(ebitdaVar(v2524).pct)}">${pct(ebitdaVar(v2524).pct)}</td>
     </tr>`;
   }).join('');
 }
@@ -50,7 +52,7 @@ function metric(label, value, variation, suffix){
   return `<div class="metric"><span>${label}</span><b>${value}</b>${p==null?'':`<em class="${cls(p)}">${pct(p)} ${suffix}</em>`}</div>`;
 }
 function yearlyRows(c){
-  return c.years.map(y=>`<tr><td>${y.year}</td>${y.available ? `<td>${num(y.rank)}</td><td>${money(y.sales)}</td><td>${money(y.assets)}</td><td>${num(y.employees)}</td><td>${money(y.netProfit)}</td>` : `<td colspan="5"><span class="muted">${y.note}</span></td>`}</tr>`).join('');
+  return c.years.map(y=>`<tr><td>${y.year}</td>${y.available ? `<td>${num(y.rank)}</td><td>${money(y.sales)}</td><td>${money(y.assets)}</td><td>${num(y.employees)}</td><td>${money(ebitda(y))}</td>` : `<td colspan="5"><span class="muted">${y.note}</span></td>`}</tr>`).join('');
 }
 function renderCompanyCards(){
   document.getElementById('companies').innerHTML = payload.companies.map(c=>{
@@ -65,15 +67,15 @@ function renderCompanyCards(){
         ${metric(`Ventas ${l.year||''}`, money(l.sales), lv.sales, suffix)}
         ${metric(`Activos ${l.year||''}`, money(l.assets), lv.assets, suffix)}
         ${metric(`Empleados ${l.year||''}`, num(l.employees), lv.employees, suffix)}
-        ${metric(`Utilidad neta ${l.year||''}`, money(l.netProfit), lv.netProfit, suffix)}
+        ${metric(`EBITDA ${l.year||''}`, money(ebitda(l)), ebitdaVar(lv), suffix)}
       </div>
       <div class="variance-strip">
         <span>Ventas 24/23: <b class="${cls(v2423.sales?.pct)}">${pct(v2423.sales?.pct)}</b></span>
         <span>Ventas 25/24: <b class="${cls(v2524.sales?.pct)}">${pct(v2524.sales?.pct)}</b></span>
-        <span>Utilidad 24/23: <b class="${cls(v2423.netProfit?.pct)}">${pct(v2423.netProfit?.pct)}</b></span>
-        <span>Utilidad 25/24: <b class="${cls(v2524.netProfit?.pct)}">${pct(v2524.netProfit?.pct)}</b></span>
+        <span>EBITDA 24/23: <b class="${cls(ebitdaVar(v2423).pct)}">${pct(ebitdaVar(v2423).pct)}</b></span>
+        <span>EBITDA 25/24: <b class="${cls(ebitdaVar(v2524).pct)}">${pct(ebitdaVar(v2524).pct)}</b></span>
       </div>
-      <div class="table-wrap mini"><table><thead><tr><th>Año</th><th>Rank</th><th>Ventas</th><th>Activos</th><th>Empleados</th><th>Utilidad neta</th></tr></thead><tbody>${yearlyRows(c)}</tbody></table></div>
+      <div class="table-wrap mini"><table><thead><tr><th>Año</th><th>Rank</th><th>Ventas</th><th>Activos</th><th>Empleados</th><th>EBITDA</th></tr></thead><tbody>${yearlyRows(c)}</tbody></table></div>
     </article>`;
   }).join('');
 }

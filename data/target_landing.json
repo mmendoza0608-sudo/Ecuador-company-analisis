@@ -7,7 +7,7 @@
       "2025": "partial"
     },
     "companiesCount": 15,
-    "note": "2025 fue cargado desde el Excel compartido y complementado con datos provistos por Mario. AKROS no figura en el bloque 2025 original. TRABELECT, TEHIKOS, AKEA S.A., PLUSCOMPUTHER S.A.S., MIPC S.A. y SMART UNIVERSE SMARTUNIV S.A. fueron actualizadas/incorporadas con datos 2025 provistos por Mario.",
+    "note": "2025 fue cargado desde el Excel compartido y complementado con datos provistos por Mario. AKROS no figura en el bloque 2025 original. TRABELECT, TEHIKOS, AKEA S.A., PLUSCOMPUTHER S.A.S., MIPC S.A. y SMART UNIVERSE SMARTUNIV S.A. fueron actualizadas/incorporadas con datos 2025 provistos por Mario. La publicación usa la columna “U. antes de impuesto” como EBITDA para todas las compañías.",
     "generatedFrom": [
       "analisis_competencia.xlsx",
       "ranking_2023.csv",
@@ -35,7 +35,8 @@
         "profitYear": 1407843.55,
         "netProfit": 930200.84,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "BINARIA SISTEMAS S.A."
+        "targetQuery": "BINARIA SISTEMAS S.A.",
+        "ebitda": 1196667.02
       },
       "years": [
         {
@@ -54,7 +55,8 @@
           "profitYear": 1834182.53,
           "netProfit": 1186869.71,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "BINARIA SISTEMAS S.A."
+          "targetQuery": "BINARIA SISTEMAS S.A.",
+          "ebitda": 1559055.15
         },
         {
           "year": 2024,
@@ -72,7 +74,8 @@
           "profitYear": 1151556.66,
           "netProfit": 754164.41,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "BINARIA SISTEMAS S.A."
+          "targetQuery": "BINARIA SISTEMAS S.A.",
+          "ebitda": 978823.16
         },
         {
           "year": 2025,
@@ -90,7 +93,8 @@
           "profitYear": 1407843.55,
           "netProfit": 930200.84,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "BINARIA SISTEMAS S.A."
+          "targetQuery": "BINARIA SISTEMAS S.A.",
+          "ebitda": 1196667.02
         }
       ],
       "variations": [
@@ -122,6 +126,10 @@
             "equity": {
               "delta": 343110.67,
               "pct": 11.84
+            },
+            "ebitda": {
+              "delta": -580231.99,
+              "pct": -37.22
             }
           }
         },
@@ -153,6 +161,10 @@
             "equity": {
               "delta": 313838.53,
               "pct": 9.68
+            },
+            "ebitda": {
+              "delta": 217843.86,
+              "pct": 22.26
             }
           }
         }
@@ -189,7 +201,8 @@
         "profitYear": 109660.22,
         "netProfit": 37755.42,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "MAINT S.A."
+        "targetQuery": "MAINT S.A.",
+        "ebitda": 93211.19
       },
       "years": [
         {
@@ -208,7 +221,8 @@
           "profitYear": 609593.73,
           "netProfit": 147440.82,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "MAINT S.A."
+          "targetQuery": "MAINT S.A.",
+          "ebitda": 518154.67
         },
         {
           "year": 2024,
@@ -226,7 +240,8 @@
           "profitYear": 144685.9,
           "netProfit": 65784.24,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "MAINT S.A."
+          "targetQuery": "MAINT S.A.",
+          "ebitda": 122983.01
         },
         {
           "year": 2025,
@@ -244,7 +259,8 @@
           "profitYear": 109660.22,
           "netProfit": 37755.42,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "MAINT S.A."
+          "targetQuery": "MAINT S.A.",
+          "ebitda": 93211.19
         }
       ],
       "variations": [
@@ -276,6 +292,10 @@
             "equity": {
               "delta": 13051.35,
               "pct": 1.07
+            },
+            "ebitda": {
+              "delta": -395171.66,
+              "pct": -76.27
             }
           }
         },
@@ -307,6 +327,10 @@
             "equity": {
               "delta": -265665.65,
               "pct": -21.55
+            },
+            "ebitda": {
+              "delta": -29771.82,
+              "pct": -24.21
             }
           }
         }
@@ -344,7 +368,8 @@
         "profitYear": 115301.98,
         "netProfit": 61026.96,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "AKROS CIA. LTDA."
+        "targetQuery": "AKROS CIA. LTDA.",
+        "ebitda": 98006.68
       },
       "years": [
         {
@@ -363,7 +388,8 @@
           "profitYear": 79268.92,
           "netProfit": -4156.63,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "AKROS CIA. LTDA."
+          "targetQuery": "AKROS CIA. LTDA.",
+          "ebitda": 67378.58
         },
         {
           "year": 2024,
@@ -381,7 +407,8 @@
           "profitYear": 115301.98,
           "netProfit": 61026.96,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "AKROS CIA. LTDA."
+          "targetQuery": "AKROS CIA. LTDA.",
+          "ebitda": 98006.68
         },
         {
           "year": 2025,
@@ -418,6 +445,10 @@
             "equity": {
               "delta": 63860.46,
               "pct": 2.21
+            },
+            "ebitda": {
+              "delta": 30628.1,
+              "pct": 45.46
             }
           }
         },
@@ -447,6 +478,10 @@
               "pct": null
             },
             "equity": {
+              "delta": null,
+              "pct": null
+            },
+            "ebitda": {
               "delta": null,
               "pct": null
             }
@@ -488,7 +523,8 @@
         "profitYear": 1040496.0,
         "netProfit": 597260.14,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "TELCOMBAS S.A."
+        "targetQuery": "TELCOMBAS S.A.",
+        "ebitda": 884421.6
       },
       "years": [
         {
@@ -507,7 +543,8 @@
           "profitYear": 760576.4,
           "netProfit": 428690.82,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "TELCOMBAS S.A."
+          "targetQuery": "TELCOMBAS S.A.",
+          "ebitda": 646489.94
         },
         {
           "year": 2024,
@@ -525,7 +562,8 @@
           "profitYear": 833746.53,
           "netProfit": 438090.96,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "TELCOMBAS S.A."
+          "targetQuery": "TELCOMBAS S.A.",
+          "ebitda": 708684.55
         },
         {
           "year": 2025,
@@ -543,7 +581,8 @@
           "profitYear": 1040496.0,
           "netProfit": 597260.14,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "TELCOMBAS S.A."
+          "targetQuery": "TELCOMBAS S.A.",
+          "ebitda": 884421.6
         }
       ],
       "variations": [
@@ -575,6 +614,10 @@
             "equity": {
               "delta": 124940.79,
               "pct": 7.26
+            },
+            "ebitda": {
+              "delta": 62194.61,
+              "pct": 9.62
             }
           }
         },
@@ -606,6 +649,10 @@
             "equity": {
               "delta": -517482.51,
               "pct": -28.03
+            },
+            "ebitda": {
+              "delta": 175737.05,
+              "pct": 24.8
             }
           }
         }
@@ -644,7 +691,8 @@
         "profitYear": 24727.89,
         "netProfit": 19234.62,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "PREMIUMTECH S.A."
+        "targetQuery": "PREMIUMTECH S.A.",
+        "ebitda": 21018.71
       },
       "years": [
         {
@@ -663,7 +711,8 @@
           "profitYear": 27956.99,
           "netProfit": 21372.66,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "PREMIUMTECH S.A."
+          "targetQuery": "PREMIUMTECH S.A.",
+          "ebitda": 23763.44
         },
         {
           "year": 2024,
@@ -681,7 +730,8 @@
           "profitYear": 22716.09,
           "netProfit": 18915.32,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "PREMIUMTECH S.A."
+          "targetQuery": "PREMIUMTECH S.A.",
+          "ebitda": 19308.68
         },
         {
           "year": 2025,
@@ -699,7 +749,8 @@
           "profitYear": 24727.89,
           "netProfit": 19234.62,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "PREMIUMTECH S.A."
+          "targetQuery": "PREMIUMTECH S.A.",
+          "ebitda": 21018.71
         }
       ],
       "variations": [
@@ -731,6 +782,10 @@
             "equity": {
               "delta": 23531.82,
               "pct": 5.6
+            },
+            "ebitda": {
+              "delta": -4454.76,
+              "pct": -18.75
             }
           }
         },
@@ -762,6 +817,10 @@
             "equity": {
               "delta": 13281.37,
               "pct": 2.99
+            },
+            "ebitda": {
+              "delta": 1710.03,
+              "pct": 8.86
             }
           }
         }
@@ -799,7 +858,8 @@
         "profitYear": 60199.96,
         "netProfit": 20719.67,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S."
+        "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S.",
+        "ebitda": 0.0
       },
       "years": [
         {
@@ -818,7 +878,8 @@
           "profitYear": 209513.48,
           "netProfit": 100510.09,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S."
+          "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S.",
+          "ebitda": 178086.46
         },
         {
           "year": 2024,
@@ -836,7 +897,8 @@
           "profitYear": 143035.47,
           "netProfit": 82794.22,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S."
+          "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S.",
+          "ebitda": 121580.15
         },
         {
           "year": 2025,
@@ -854,7 +916,8 @@
           "profitYear": 60199.96,
           "netProfit": 20719.67,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S."
+          "targetQuery": "TECNOLOGIA AVANZADA DEL ECUADOR TECNOAV S.A.S.",
+          "ebitda": 0.0
         }
       ],
       "variations": [
@@ -886,6 +949,10 @@
             "equity": {
               "delta": 12794.22,
               "pct": 2.58
+            },
+            "ebitda": {
+              "delta": -56506.31,
+              "pct": -31.73
             }
           }
         },
@@ -917,6 +984,10 @@
             "equity": {
               "delta": -69280.33,
               "pct": -13.6
+            },
+            "ebitda": {
+              "delta": -121580.15,
+              "pct": -100.0
             }
           }
         }
@@ -954,7 +1025,8 @@
         "profitYear": 361534.74,
         "netProfit": 224729.79,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "COMPUHELP S.A."
+        "targetQuery": "COMPUHELP S.A.",
+        "ebitda": 0.0
       },
       "years": [
         {
@@ -973,7 +1045,8 @@
           "profitYear": 307096.14,
           "netProfit": 192238.94,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "COMPUHELP S.A."
+          "targetQuery": "COMPUHELP S.A.",
+          "ebitda": 0.0
         },
         {
           "year": 2024,
@@ -991,7 +1064,8 @@
           "profitYear": 416252.78,
           "netProfit": 262561.56,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "COMPUHELP S.A."
+          "targetQuery": "COMPUHELP S.A.",
+          "ebitda": 353814.86
         },
         {
           "year": 2025,
@@ -1009,7 +1083,8 @@
           "profitYear": 361534.74,
           "netProfit": 224729.79,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "COMPUHELP S.A."
+          "targetQuery": "COMPUHELP S.A.",
+          "ebitda": 0.0
         }
       ],
       "variations": [
@@ -1041,6 +1116,10 @@
             "equity": {
               "delta": 37561.56,
               "pct": 2.93
+            },
+            "ebitda": {
+              "delta": 353814.86,
+              "pct": null
             }
           }
         },
@@ -1072,6 +1151,10 @@
             "equity": {
               "delta": 224729.79,
               "pct": 17.04
+            },
+            "ebitda": {
+              "delta": -353814.86,
+              "pct": -100.0
             }
           }
         }
@@ -1108,7 +1191,8 @@
         "profitYear": 152013.92,
         "netProfit": 152013.92,
         "source": "Dato 2025 provisto por Mario",
-        "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
+        "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+        "ebitda": 304027.84
       },
       "years": [
         {
@@ -1127,7 +1211,8 @@
           "profitYear": 150595.13,
           "netProfit": 150595.13,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
+          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+          "ebitda": 150595.13
         },
         {
           "year": 2024,
@@ -1145,7 +1230,8 @@
           "profitYear": 97199.14,
           "netProfit": 97199.14,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
+          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+          "ebitda": 97199.14
         },
         {
           "year": 2025,
@@ -1163,7 +1249,8 @@
           "profitYear": 152013.92,
           "netProfit": 152013.92,
           "source": "Dato 2025 provisto por Mario",
-          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS"
+          "targetQuery": "TRABELECT S.A. TRABAJOS ELECTRICOS",
+          "ebitda": 304027.84
         }
       ],
       "variations": [
@@ -1195,6 +1282,10 @@
             "equity": {
               "delta": -53395.99,
               "pct": -9.91
+            },
+            "ebitda": {
+              "delta": -53395.99,
+              "pct": -35.46
             }
           }
         },
@@ -1226,6 +1317,10 @@
             "equity": {
               "delta": 54814.78,
               "pct": 11.29
+            },
+            "ebitda": {
+              "delta": 206828.7,
+              "pct": 212.79
             }
           }
         }
@@ -1261,7 +1356,8 @@
         "profitYear": 375538.24,
         "netProfit": 231605.81,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A."
+        "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A.",
+        "ebitda": 319207.5
       },
       "years": [
         {
@@ -1280,7 +1376,8 @@
           "profitYear": 239944.42,
           "netProfit": 126373.04,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A."
+          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A.",
+          "ebitda": 203952.76
         },
         {
           "year": 2024,
@@ -1298,7 +1395,8 @@
           "profitYear": 212448.14,
           "netProfit": 117230.66,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A."
+          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A.",
+          "ebitda": 180580.92
         },
         {
           "year": 2025,
@@ -1316,7 +1414,8 @@
           "profitYear": 375538.24,
           "netProfit": 231605.81,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A."
+          "targetQuery": "ONDU SOLUCIONES TECNOLOGICAS S.A.",
+          "ebitda": 319207.5
         }
       ],
       "variations": [
@@ -1348,6 +1447,10 @@
             "equity": {
               "delta": 38920.66,
               "pct": 6.63
+            },
+            "ebitda": {
+              "delta": -23371.84,
+              "pct": -11.46
             }
           }
         },
@@ -1379,6 +1482,10 @@
             "equity": {
               "delta": 133659.92,
               "pct": 21.36
+            },
+            "ebitda": {
+              "delta": 138626.58,
+              "pct": 76.77
             }
           }
         }
@@ -1416,7 +1523,8 @@
         "profitYear": 92635.73,
         "netProfit": 50742.29,
         "source": "Resumen Excel provisto por Mario",
-        "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A."
+        "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+        "ebitda": 78740.37
       },
       "years": [
         {
@@ -1435,7 +1543,8 @@
           "profitYear": 197434.16,
           "netProfit": 122745.06,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A."
+          "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+          "ebitda": 167819.04
         },
         {
           "year": 2024,
@@ -1453,7 +1562,8 @@
           "profitYear": 98324.53,
           "netProfit": 59489.92,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A."
+          "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+          "ebitda": 0.0
         },
         {
           "year": 2025,
@@ -1471,7 +1581,8 @@
           "profitYear": 92635.73,
           "netProfit": 50742.29,
           "source": "Resumen Excel provisto por Mario",
-          "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A."
+          "targetQuery": "CORPORACION INNOVUX INFORMATION TECHNOLOGY INNOVUXIT S.A.",
+          "ebitda": 78740.37
         }
       ],
       "variations": [
@@ -1503,6 +1614,10 @@
             "equity": {
               "delta": 26989.92,
               "pct": 11.58
+            },
+            "ebitda": {
+              "delta": -167819.04,
+              "pct": -100.0
             }
           }
         },
@@ -1534,6 +1649,10 @@
             "equity": {
               "delta": -16351.64,
               "pct": -6.29
+            },
+            "ebitda": {
+              "delta": 78740.37,
+              "pct": null
             }
           }
         }
@@ -1579,7 +1698,8 @@
         "profitBeforeTax": 35679.1,
         "profitYear": 41975.41,
         "netProfit": 22770.79,
-        "source": "Dato 2025 provisto por Mario"
+        "source": "Dato 2025 provisto por Mario",
+        "ebitda": 35679.1
       },
       "years": [
         {
@@ -1606,7 +1726,8 @@
           "netProfit": 30397.05,
           "incomeTax": 10132.35,
           "totalIncome": 1607216.18,
-          "source": "SCVS ranking público"
+          "source": "SCVS ranking público",
+          "ebitda": 40529.4
         },
         {
           "year": 2024,
@@ -1632,7 +1753,8 @@
           "netProfit": 72850.8,
           "incomeTax": 24283.6,
           "totalIncome": 2490861.8,
-          "source": "SCVS ranking público"
+          "source": "SCVS ranking público",
+          "ebitda": 97134.4
         },
         {
           "year": 2025,
@@ -1658,7 +1780,8 @@
           "profitBeforeTax": 35679.1,
           "profitYear": 41975.41,
           "netProfit": 22770.79,
-          "source": "Dato 2025 provisto por Mario"
+          "source": "Dato 2025 provisto por Mario",
+          "ebitda": 35679.1
         }
       ],
       "variations": [
@@ -1690,6 +1813,10 @@
             "equity": {
               "delta": 42453.8,
               "pct": 65.1
+            },
+            "ebitda": {
+              "delta": 56605.0,
+              "pct": 139.66
             }
           }
         },
@@ -1721,6 +1848,10 @@
             "equity": {
               "delta": 22770.79,
               "pct": 21.15
+            },
+            "ebitda": {
+              "delta": -61455.3,
+              "pct": -63.27
             }
           }
         }
@@ -1768,7 +1899,8 @@
         "profitBeforeTax": 228446.66,
         "profitYear": 268760.78,
         "netProfit": 168433.41,
-        "source": "Dato 2025 provisto por Mario"
+        "source": "Dato 2025 provisto por Mario",
+        "ebitda": 228446.66
       },
       "years": [
         {
@@ -1795,7 +1927,8 @@
           "netProfit": 260427.08,
           "incomeTax": 116371.02,
           "totalIncome": 5498685.24,
-          "source": "SCVS ranking público"
+          "source": "SCVS ranking público",
+          "ebitda": 374064.73
         },
         {
           "year": 2024,
@@ -1821,7 +1954,8 @@
           "netProfit": 106167.09,
           "incomeTax": 42384.75,
           "totalIncome": 6028163.32,
-          "source": "SCVS ranking público"
+          "source": "SCVS ranking público",
+          "ebitda": 145241.43
         },
         {
           "year": 2025,
@@ -1847,7 +1981,8 @@
           "profitBeforeTax": 228446.66,
           "profitYear": 268760.78,
           "netProfit": 168433.41,
-          "source": "Dato 2025 provisto por Mario"
+          "source": "Dato 2025 provisto por Mario",
+          "ebitda": 228446.66
         }
       ],
       "variations": [
@@ -1879,6 +2014,10 @@
             "equity": {
               "delta": 6167.1,
               "pct": 0.73
+            },
+            "ebitda": {
+              "delta": -228823.3,
+              "pct": -61.17
             }
           }
         },
@@ -1910,6 +2049,10 @@
             "equity": {
               "delta": 81578.04,
               "pct": 9.58
+            },
+            "ebitda": {
+              "delta": 83205.23,
+              "pct": 57.29
             }
           }
         }
@@ -1952,7 +2095,8 @@
         "profitBeforeTax": 10067.58,
         "profitYear": 10067.58,
         "netProfit": 7408.47,
-        "source": "Dato 2025 provisto por Mario"
+        "source": "Dato 2025 provisto por Mario",
+        "ebitda": 10067.58
       },
       "years": [
         {
@@ -1989,7 +2133,8 @@
           "profitBeforeTax": 10067.58,
           "profitYear": 10067.58,
           "netProfit": 7408.47,
-          "source": "Dato 2025 provisto por Mario"
+          "source": "Dato 2025 provisto por Mario",
+          "ebitda": 10067.58
         }
       ],
       "variations": [
@@ -2021,6 +2166,10 @@
             "equity": {
               "delta": null,
               "pct": null
+            },
+            "ebitda": {
+              "delta": null,
+              "pct": null
             }
           }
         },
@@ -2050,6 +2199,10 @@
               "pct": null
             },
             "equity": {
+              "delta": null,
+              "pct": null
+            },
+            "ebitda": {
               "delta": null,
               "pct": null
             }
@@ -2085,7 +2238,8 @@
         "profitYear": 3565.41,
         "netProfit": 2339.69,
         "source": "Dato 2025 provisto por Mario",
-        "targetQuery": "MIPC S.A."
+        "targetQuery": "MIPC S.A.",
+        "ebitda": 3030.6
       },
       "years": [
         {
@@ -2113,7 +2267,8 @@
           "incomeTax": 0.0,
           "totalIncome": 1289373.64,
           "source": "SCVS ranking público 2023–2024",
-          "targetQuery": "MIPC S.A."
+          "targetQuery": "MIPC S.A.",
+          "ebitda": 0.0
         },
         {
           "year": 2024,
@@ -2140,7 +2295,8 @@
           "incomeTax": 154.98,
           "totalIncome": 963980.25,
           "source": "SCVS ranking público 2023–2024",
-          "targetQuery": "MIPC S.A."
+          "targetQuery": "MIPC S.A.",
+          "ebitda": 704.47
         },
         {
           "year": 2025,
@@ -2158,7 +2314,8 @@
           "profitYear": 3565.41,
           "netProfit": 2339.69,
           "source": "Dato 2025 provisto por Mario",
-          "targetQuery": "MIPC S.A."
+          "targetQuery": "MIPC S.A.",
+          "ebitda": 3030.6
         }
       ],
       "variations": [
@@ -2190,6 +2347,10 @@
             "equity": {
               "delta": 644.53,
               "pct": 24.7
+            },
+            "ebitda": {
+              "delta": 704.47,
+              "pct": null
             }
           }
         },
@@ -2221,6 +2382,10 @@
             "equity": {
               "delta": 2339.69,
               "pct": 71.91
+            },
+            "ebitda": {
+              "delta": 2326.13,
+              "pct": 330.2
             }
           }
         }
@@ -2255,7 +2420,8 @@
         "profitYear": 9336.03,
         "netProfit": 3465.96,
         "source": "Dato 2025 provisto por Mario",
-        "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
+        "targetQuery": "SMART UNIVERSE SMARTUNIV S.A.",
+        "ebitda": 7935.62
       },
       "years": [
         {
@@ -2283,7 +2449,8 @@
           "incomeTax": 5435.69,
           "totalIncome": 719188.02,
           "source": "SCVS ranking público 2023–2024",
-          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
+          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A.",
+          "ebitda": 6863.15
         },
         {
           "year": 2024,
@@ -2310,7 +2477,8 @@
           "incomeTax": 4107.21,
           "totalIncome": 639973.41,
           "source": "SCVS ranking público 2023–2024",
-          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
+          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A.",
+          "ebitda": 7735.42
         },
         {
           "year": 2025,
@@ -2328,7 +2496,8 @@
           "profitYear": 9336.03,
           "netProfit": 3465.96,
           "source": "Dato 2025 provisto por Mario",
-          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A."
+          "targetQuery": "SMART UNIVERSE SMARTUNIV S.A.",
+          "ebitda": 7935.62
         }
       ],
       "variations": [
@@ -2360,6 +2529,10 @@
             "equity": {
               "delta": 3628.2,
               "pct": 74.94
+            },
+            "ebitda": {
+              "delta": 872.27,
+              "pct": 12.71
             }
           }
         },
@@ -2391,6 +2564,10 @@
             "equity": {
               "delta": 3465.96,
               "pct": 40.92
+            },
+            "ebitda": {
+              "delta": 200.2,
+              "pct": 2.59
             }
           }
         }
