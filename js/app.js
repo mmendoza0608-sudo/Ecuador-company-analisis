@@ -5,7 +5,7 @@ const pct = v => v == null ? '—' : `${v>0?'+':''}${v.toFixed(2)}%`;
 const cls = v => v == null ? '' : v > 0 ? 'positive' : v < 0 ? 'negative' : 'neutral';
 
 async function init(){
-  payload = await fetch('data/target_landing.json').then(r=>r.json());
+  payload = await fetch('data/target_landing.json?v=ebitda-uai-2', {cache: 'no-store'}).then(r=>r.json());
   renderStats(); renderAvailability(); renderSummary(); renderCompanyCards();
 }
 function latest(c){ return c.latest || c.years.find(y=>y.available) || {}; }
